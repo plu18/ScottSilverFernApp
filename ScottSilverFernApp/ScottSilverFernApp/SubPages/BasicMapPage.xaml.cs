@@ -1,7 +1,9 @@
-﻿using System;
+﻿using ScottSilverFernApp.Models;
+using ScottSilverFernApp.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.GoogleMaps;
 using Xamarin.Forms.Xaml;
@@ -168,6 +170,34 @@ namespace ScottSilverFernApp
             //    var stream = await map.TakeSnapshot();
             //    imageSnapshot.Source = ImageSource.FromStream(() => stream);
             //};
+
+            AddPinFromAzure();
+        }
+
+        
+
+        private async void AddPinFromAzure()
+        {
+            AzureDataServiceForPins azureDataServiceForPins = new AzureDataServiceForPins();
+
+            IEnumerable<SPECIES_LA_LONG> iEnumerablePinClass = await azureDataServiceForPins.GetPinsAsync();
+            AddPin(iEnumerablePinClass);
+        }
+
+        private async void AddPin(IEnumerable<SPECIES_LA_LONG> iEnumerablePinClass)
+        {
+            for (int i = 0; i < iEnumerablePinClass.Count(); i++)
+            {
+                SPECIES_LA_LONG pinClass = iEnumerablePinClass.ElementAt(i);
+                var pin = new Pin()
+                {
+                    Type = PinType.Place,
+                    Label = pinClass.speciesName,
+                    Address = pinClass.latitude + "," + pinClass.longtitude,
+                    Position = new Position(pinClass.latitude, pinClass.longtitude)
+                };
+                map.Pins.Add(pin);
+            }
         }
     }
 }

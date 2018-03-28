@@ -74,7 +74,7 @@ namespace ScottSilverFernApp.Services
             IEnumerable<SPECIES_LA_LONG> items = await pinsTable
               .ToEnumerableAsync();
 
-            return new ObservableCollection<SPECIES_LA_LONG>(items);
+            return (new ObservableCollection<SPECIES_LA_LONG>(items));
         }
         public async Task SyncPins()
         {

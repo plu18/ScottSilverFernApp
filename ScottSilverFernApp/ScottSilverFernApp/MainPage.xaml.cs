@@ -1,4 +1,5 @@
 ﻿using BottomBar.XamarinForms;
+using ScottSilverFernApp.ViewModels;
 
 namespace ScottSilverFernApp
 {
@@ -7,6 +8,7 @@ namespace ScottSilverFernApp
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+            BindingContext = new MainViewModel(this);
+        }
 	}
 }
