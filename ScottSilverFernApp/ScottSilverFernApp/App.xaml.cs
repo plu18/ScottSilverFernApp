@@ -13,7 +13,8 @@ namespace ScottSilverFernApp
 		{
 			InitializeComponent();
 
-			MainPage = new ScottSilverFernApp.MainPage();
+			MainPage = new NavigationPage(new MainPage());
+
 		}
 
 		protected override void OnStart ()

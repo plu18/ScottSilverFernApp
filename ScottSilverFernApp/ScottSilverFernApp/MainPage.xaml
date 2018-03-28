@@ -1,11 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:ScottSilverFernApp"
-             x:Class="ScottSilverFernApp.MainPage">
+<xf:BottomBarPage xmlns="http://xamarin.com/schemas/2014/forms"
+                                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                                xmlns:local="clr-namespace:ScottSilverFernApp"
+                                x:Class="ScottSilverFernApp.MainPage"
+                                NavigationPage.HasNavigationBar="False"
+                                xmlns:xf="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <local:BasicMapPage Title="Map"
+                Icon ="ic_room_black_24dp.png"
+                xf:BottomBarPageExtensions.TabColor="#12b1a0" />
 
-</ContentPage>
+
+    <local:ActivityPage Title="Activities"
+                Icon ="ic_question_answer_black_24dp.png"
+                xf:BottomBarPageExtensions.TabColor="#23cdde" />
+
+    <local:CameraPage Title="Camera"
+                Icon ="ic_add_a_photo_black_24dp.png"
+                xf:BottomBarPageExtensions.TabColor="#d5f5ff" />
+
+    <local:NewsPage Title="News"
+                Icon ="ic_rss_feed_black_24dp.png"
+                xf:BottomBarPageExtensions.TabColor="#7a37e7" />
+
+    <local:MomentsPage Title="Moments"
+                Icon ="ic_account_circle_black_24dp.png"
+                xf:BottomBarPageExtensions.TabColor="#abcc7a" />
+
+
+
+</xf:BottomBarPage>
