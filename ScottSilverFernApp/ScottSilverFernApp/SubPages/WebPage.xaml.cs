@@ -20,7 +20,7 @@ namespace ScottSilverFernApp.SubPages
 
             var browser = new WebView();
             browser.Source = path;
-            ToolbarItems.Add(new ToolbarItem("Back", "", () => { browser.GoBack(); }));
+            //ToolbarItems.Add(new ToolbarItem("", "", () => { browser.GoBack(); }));
             Content = browser;
         }
         

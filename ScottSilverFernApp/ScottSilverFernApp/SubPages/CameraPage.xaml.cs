@@ -145,17 +145,15 @@ namespace ScottSilverFernApp
                     //relativeLayout.Children.Add(new IdentifyListView(speciesList), Constraint.RelativeToParent((parent) => { return parent.X; }), Constraint.RelativeToParent((parent) => { return parent.Height; }));
                     //relativeLayout.Children.Clear();
 
-                    IdentifyListView identifyListView = new IdentifyListView(speciesList)
-                    {
+                    IdentifyListPage identifyListPage = new IdentifyListPage();
+                    Navigation.PushAsync(identifyListPage);
 
-                        HorizontalOptions = LayoutOptions.FillAndExpand,
-                        VerticalOptions = LayoutOptions.FillAndExpand,
+                    identifyListPage.Content = new IdentifyListView(speciesList);
 
-                    };
-                    relativeLayout.Children.Add(identifyListView, Constraint.RelativeToParent((parent) => { return parent.X; }),
-                                                                           Constraint.RelativeToParent((parent) => { return parent.Y; }),
-                                                                           Constraint.RelativeToParent((parent) => { return parent.Width; }),
-                                                                           Constraint.RelativeToParent((parent) => { return parent.Height; }));
+                    //relativeLayout.Children.Add(identifyListView, Constraint.RelativeToParent((parent) => { return parent.X; }),
+                    //                                                       Constraint.RelativeToParent((parent) => { return parent.Y; }),
+                    //                                                       Constraint.RelativeToParent((parent) => { return parent.Width; }),
+                    //                                                       Constraint.RelativeToParent((parent) => { return parent.Height; }));
                     //relativeLayout.Children.Insert(1,new IdentifyListView(speciesList));
                 }
                 else
