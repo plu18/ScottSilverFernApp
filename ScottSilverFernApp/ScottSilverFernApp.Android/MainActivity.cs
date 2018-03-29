@@ -8,8 +8,11 @@ using Android.Widget;
 using Android.OS;
 using Plugin.Permissions;
 
+[assembly: UsesFeature("android.hardware.camera", Required = false)]
+[assembly: UsesFeature("android.hardware.camera.autofocus", Required = false)]
 namespace ScottSilverFernApp.Droid
 {
+
     [Activity(Label = "ScottSilverFernApp", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
@@ -31,7 +34,7 @@ namespace ScottSilverFernApp.Droid
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
         {
-            PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            Plugin.Permissions.PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
 }

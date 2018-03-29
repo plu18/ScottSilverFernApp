@@ -19,6 +19,15 @@ namespace ScottSilverFernApp
         public IdentifyListPage()
         {
             InitializeComponent();
+            
+        }
+
+        public IdentifyListPage(List<Species> speciesList)
+        {
+            InitializeComponent();
+
+            IdentifyListView identifyListView = new IdentifyListView(speciesList);
+            Content = identifyListView;
         }
         
     }

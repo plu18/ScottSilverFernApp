@@ -44,8 +44,6 @@
                 <Label Text="Recommended Approaches:" FontSize="17" TextColor="Black" HorizontalOptions="Start"  VerticalOptions="Center" TranslationX="40"/>
                 <Label Text="{Binding recommendedApproaches}" FontSize="17" TextColor="#696969" HorizontalOptions="Start"  VerticalOptions="Center" TranslationX="40" WidthRequest="300"/>
 
-                <Button Text="BACK" Clicked="GoBackButtonPressed" FontSize="16" BackgroundColor="Transparent" TextColor="#258c76" HeightRequest="37" 
-                        HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
             </StackLayout>
         </ScrollView>
     </ContentView.Content>

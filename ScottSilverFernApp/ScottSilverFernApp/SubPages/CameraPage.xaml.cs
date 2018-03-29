@@ -33,8 +33,8 @@ namespace ScottSilverFernApp
 
         async void TapGestureRecognizer_Tapped_Camera(object sender, EventArgs e)
         {
+            
             await CrossMedia.Current.Initialize();
-
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
             {
                 await DisplayAlert("No Camera", ":( No camera avaialble.", "OK");
@@ -52,7 +52,7 @@ namespace ScottSilverFernApp
                     PhotoSize = PhotoSize.Custom,
                     CustomPhotoSize = 50,//50% resize
 
-                    DefaultCamera = CameraDevice.Front//use system default camera
+                    DefaultCamera = CameraDevice.Rear//use system default camera
                 });
 
                 if (file == null)
@@ -63,7 +63,6 @@ namespace ScottSilverFernApp
                 Stream stream = file.GetStream();
                 file.Dispose();
                 CommonOperationCameraLibPictures(stream);
-
             }
             catch (Exception exp)
             {

@@ -92,20 +92,17 @@ namespace ScottSilverFernApp
         }
         void OnSelection(object sender, SelectedItemChangedEventArgs e)
         {
-            var item = e.SelectedItem as Species;
-            DetailsView detailsView = new DetailsView();
-            detailsView.BindingContext = item;
-            //ListViewPageAndDetailsPage.Children.Add(detailsView, Constraint.Constant(0));
-            //SpeciesListView.IsEnabled = false;
-            SpeciesListView.IsVisible = false;
-            ButtonBack.IsVisible = false;
-            ListViewPageAndDetailsPage.Children.Add(detailsView);
-            //ListViewPageAndDetailsPage.Children.Insert(0,detailsView);
-        }
-        protected void GoBackButtonPressed()
-        {
-            this.IsVisible = false;
+            Species item = e.SelectedItem as Species;
+            //DetailsView detailsView = new DetailsView();
+            //detailsView.BindingContext = item;
+            ////ListViewPageAndDetailsPage.Children.Add(detailsView, Constraint.Constant(0));
+            ////SpeciesListView.IsEnabled = false;
+            //SpeciesListView.IsVisible = false;
+            //ButtonBack.IsVisible = false;
+            //ListViewPageAndDetailsPage.Children.Add(detailsView);
+            ////ListViewPageAndDetailsPage.Children.Insert(0,detailsView);
 
+            Navigation.PushAsync(new DetailsPage(item));
         }
     }
 }

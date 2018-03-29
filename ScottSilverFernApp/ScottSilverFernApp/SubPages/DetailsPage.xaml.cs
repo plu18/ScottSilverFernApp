@@ -11,18 +11,20 @@ using Xamarin.Forms.Xaml;
 namespace ScottSilverFernApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class DetailsView : ContentView
+	public partial class DetailsPage : ContentPage
 	{
-		public DetailsView ()
+		public DetailsPage ()
 		{
 			InitializeComponent ();
-		}
-
-        public DetailsView(Species item)
+        }
+        public DetailsPage(Species item)
         {
             InitializeComponent();
 
-            this.BindingContext = item;
+            DetailsView detailsView = new DetailsView();
+            detailsView.BindingContext = item;
+            Content = detailsView;
+            
         }
 
     }
