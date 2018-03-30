@@ -13,9 +13,10 @@ using Plugin.Permissions;
 namespace ScottSilverFernApp.Droid
 {
 
-    [Activity(Label = "ScottSilverFernApp", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "ScottSilverFernApp", Icon = "@drawable/logo2", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+        internal static MainActivity Instance { get; private set; }
         protected override void OnCreate(Bundle bundle)
         {
             Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
@@ -24,6 +25,8 @@ namespace ScottSilverFernApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+
+            Instance = this;
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
 

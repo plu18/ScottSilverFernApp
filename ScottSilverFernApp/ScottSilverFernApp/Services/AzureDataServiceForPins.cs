@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace ScottSilverFernApp.Services
 {
-    class AzureDataServiceForPins
+    public class AzureDataServiceForPins
     {
         public MobileServiceClient MobileClient { get; set; }
         IMobileServiceSyncTable<SPECIES_LA_LONG> pinsTable;
@@ -71,10 +71,18 @@ namespace ScottSilverFernApp.Services
         public async Task<ObservableCollection<SPECIES_LA_LONG>> GetPinsAsync()
         {
             await SyncPins();
-            IEnumerable<SPECIES_LA_LONG> items = await pinsTable
-              .ToEnumerableAsync();
+            try
+            {
+                IEnumerable<SPECIES_LA_LONG> items = await pinsTable
+                    .ToEnumerableAsync();
+                return (new ObservableCollection<SPECIES_LA_LONG>(items));
+            }
+            catch (MobileServiceInvalidOperationException e)
+            {
 
-            return (new ObservableCollection<SPECIES_LA_LONG>(items));
+            }
+
+            return (new ObservableCollection<SPECIES_LA_LONG>());
         }
         public async Task SyncPins()
         {

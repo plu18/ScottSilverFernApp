@@ -14,6 +14,7 @@ namespace ScottSilverFernApp
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class IdentifyListPage : ContentPage
 	{
+        private static IdentifyListPage instance = null;
         public ObservableCollection<string> Items { get; set; }
 
         public IdentifyListPage()
@@ -29,6 +30,20 @@ namespace ScottSilverFernApp
             IdentifyListView identifyListView = new IdentifyListView(speciesList);
             Content = identifyListView;
         }
-        
+
+        public static IdentifyListPage getInstance()
+        {
+            if (instance == null)
+                instance = new IdentifyListPage();
+
+            return instance;
+        }
+
+        public static void DeleteInstance()
+        {
+            if (instance != null)
+                instance = null;
+        }
+
     }
 }

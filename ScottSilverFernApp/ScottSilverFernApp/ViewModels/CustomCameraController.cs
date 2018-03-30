@@ -1,11 +1,8 @@
-﻿using Plugin.Media;
-using Plugin.Media.Abstractions;
-using ScottSilverFernApp.CustomGoogleMap;
+﻿using ScottSilverFernApp.CustomGoogleMap;
 using ScottSilverFernApp.Models;
 using ScottSilverFernApp.Services;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -13,91 +10,16 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-
-namespace ScottSilverFernApp
+namespace ScottSilverFernApp.ViewModels
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class CameraPage : ContentPage
-	{
-		public CameraPage ()
-		{
-			InitializeComponent ();
-		}
+    public static class CustomCameraController
+    {
 
-        protected override void OnAppearing()
+        public static async Task<List<Species>> CommonOperationCameraLibPictures(Stream stream)
         {
-            base.OnAppearing();
-        }
-
-        async void TapGestureRecognizer_Tapped_Camera(object sender, EventArgs e)
-        {
-            //await Navigation.PushAsync(new CustomCameraPage());
-
-            await CrossMedia.Current.Initialize();
-            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
-            {
-                await DisplayAlert("No Camera", ":( No camera avaialble.", "OK");
-                return;
-            }
-
-            try
-            {
-                var file = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
-                {
-                    Directory = "Test",
-                    SaveToAlbum = true,
-                    CompressionQuality = 75,//compression ratio
-
-                    PhotoSize = PhotoSize.Custom,
-                    CustomPhotoSize = 50,//50% resize
-
-                    DefaultCamera = CameraDevice.Rear//use system default camera
-                });
-
-                if (file == null)
-                    return;
-
-                await DisplayAlert("File Location", file.Path, "OK");
-
-                Stream stream = file.GetStream();
-                file.Dispose();
-                CommonOperationCameraLibPictures(stream);
-            }
-            catch (Exception exp)
-            {
-                Debug.WriteLine(@"Sync error: {0}", exp.Message);
-            }
-        }
-
-        public async void TapGestureRecognizer_Tapped_ImagesLib(object sender, EventArgs e)
-        {
-            if (!CrossMedia.Current.IsPickPhotoSupported)
-            {
-                await DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
-                return;
-            }
-            var file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
-            {
-                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
-            });
-
-            if (file == null)
-                return;
-
-            Stream stream = file.GetStream();
-            file.Dispose();
-            CommonOperationCameraLibPictures(stream);
-        }
-
-
-        private async void CommonOperationCameraLibPictures(Stream stream)
-        {
-
+            List<Species> speciesList = new List<Species>();
             if (stream != null)
             {
-                activityIndicator.IsRunning = true;
                 //loadingIndicator = true;
                 // Photo.Source = ImageSource.FromStream(() => stream);
                 byte[] m_Bytes = ReadToEnd(stream);
@@ -111,7 +33,7 @@ namespace ScottSilverFernApp
                     threeSpecies = getDetailsFromAIreturn(AIreturnData);//get the top 3 possible results
 
                     AzureDataService azureDataService = new AzureDataService();
-                    List<Species> speciesList = new List<Species>();
+                    
 
                     try
                     {
@@ -136,35 +58,26 @@ namespace ScottSilverFernApp
                     }
                     catch (Exception exp)
                     {
-                        activityIndicator.IsRunning = false;
-                        Debug.WriteLine(@"Sync error: {0}", exp.Message);
                     }
-                    activityIndicator.IsRunning = false;
                     //relativeLayout.Children.Remove(relativeLayoutSubset);//remove google map
                     //relativeLayout.Children.Add(new IdentifyListView(speciesList));
                     //relativeLayout.Children.Add(new IdentifyListView(speciesList), Constraint.RelativeToParent((parent) => { return parent.X; }), Constraint.RelativeToParent((parent) => { return parent.Height; }));
                     //relativeLayout.Children.Clear();
 
-                    IdentifyListPage identifyListPage = new IdentifyListPage();
-                    Navigation.PushAsync(identifyListPage);
+                    //IdentifyListPage identifyListPage = new IdentifyListPage();
+                    //Navigation.PushAsync(identifyListPage);
 
-                    identifyListPage.Content = new IdentifyListView(speciesList);
-
+                    //identifyListPage.Content = new IdentifyListView(speciesList);
+                    
                     //relativeLayout.Children.Add(identifyListView, Constraint.RelativeToParent((parent) => { return parent.X; }),
                     //                                                       Constraint.RelativeToParent((parent) => { return parent.Y; }),
                     //                                                       Constraint.RelativeToParent((parent) => { return parent.Width; }),
                     //                                                       Constraint.RelativeToParent((parent) => { return parent.Height; }));
                     //relativeLayout.Children.Insert(1,new IdentifyListView(speciesList));
                 }
-                else
-                {
-                    await DisplayAlert("AI Return Results is ", "NULL", "!!!");
-                }
             }
-            else
-            {
-                await DisplayAlert("Photos Stream is ", "NULL", "!!!");
-            }
+
+            return speciesList;
         }
 
         private static byte[] ReadToEnd(System.IO.Stream stream)
@@ -220,7 +133,7 @@ namespace ScottSilverFernApp
         }
 
         //send a photo to vision AI 
-        private async Task<string> MakePredictionRequest(byte[] byteImageData)
+        private static async Task<string> MakePredictionRequest(byte[] byteImageData)
         {
             var client = new HttpClient();
 
@@ -246,7 +159,7 @@ namespace ScottSilverFernApp
             return AIreturnData;
         }
 
-        private string[] getDetailsFromAIreturn(string wholeLineInfo)
+        private static string[] getDetailsFromAIreturn(string wholeLineInfo)
         {
             //wholeLineInfo = wholeLineInfo.Replace('"',' '); //delete "
             wholeLineInfo = wholeLineInfo.Replace("{", "");//delete {
@@ -264,6 +177,5 @@ namespace ScottSilverFernApp
 
             return threeSpecies;
         }
-
     }
 }

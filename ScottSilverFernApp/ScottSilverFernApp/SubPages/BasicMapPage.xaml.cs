@@ -171,7 +171,7 @@ namespace ScottSilverFernApp
             //    imageSnapshot.Source = ImageSource.FromStream(() => stream);
             //};
 
-            AddPinFromAzure();
+            //AddPinFromAzure();
         }
 
         
@@ -181,10 +181,12 @@ namespace ScottSilverFernApp
             AzureDataServiceForPins azureDataServiceForPins = new AzureDataServiceForPins();
 
             IEnumerable<SPECIES_LA_LONG> iEnumerablePinClass = await azureDataServiceForPins.GetPinsAsync();
-            AddPin(iEnumerablePinClass);
+
+            //if(iEnumerablePinClass.Any())
+            //    AddPin(iEnumerablePinClass);
         }
 
-        private async void AddPin(IEnumerable<SPECIES_LA_LONG> iEnumerablePinClass)
+        private async Task AddPin(IEnumerable<SPECIES_LA_LONG> iEnumerablePinClass)
         {
             for (int i = 0; i < iEnumerablePinClass.Count(); i++)
             {

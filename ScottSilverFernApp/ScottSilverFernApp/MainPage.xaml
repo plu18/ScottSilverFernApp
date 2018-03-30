@@ -15,7 +15,7 @@
                 Icon ="ic_question_answer_black_24dp.png"
                 xf:BottomBarPageExtensions.TabColor="#00bcd4" />
 
-    <local:CameraPage Title="Camera"
+    <local:CustomCameraPage Title="Camera"
                 Icon ="ic_add_a_photo_black_24dp.png"
                 xf:BottomBarPageExtensions.TabColor="#9cd4b1" 
                 xf:BottomBarPageExtensions.BadgeCount="1"

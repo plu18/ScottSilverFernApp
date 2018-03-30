@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace ScottSilverFernApp.Services
 {
-    class AzureDataService
+    public class AzureDataService
     {
         public MobileServiceClient MobileClient { get; set; }
         IMobileServiceSyncTable<Species> speciesTable;
