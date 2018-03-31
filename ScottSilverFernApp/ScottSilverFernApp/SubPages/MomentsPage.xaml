@@ -6,6 +6,9 @@
         <ScrollView>
             <StackLayout>
                 <Image Source="moment.png" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_TappedLogin" />
+                    </Image.GestureRecognizers>
                 </Image>
             </StackLayout>
         </ScrollView>

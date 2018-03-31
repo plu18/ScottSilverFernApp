@@ -8,18 +8,16 @@
 
     <local:BasicMapPage Title="Map"
                 Icon ="ic_room_black_24dp.png" 
-                xf:BottomBarPageExtensions.TabColor="#2e3238"/>
+                xf:BottomBarPageExtensions.TabColor="#00bcd4"/>
 
 
     <local:ActivityPage Title="Activities"
                 Icon ="ic_question_answer_black_24dp.png"
-                xf:BottomBarPageExtensions.TabColor="#00bcd4" />
+                xf:BottomBarPageExtensions.TabColor="#23CDDE" />
 
     <local:CustomCameraPage Title="Camera"
                 Icon ="ic_add_a_photo_black_24dp.png"
-                xf:BottomBarPageExtensions.TabColor="#9cd4b1" 
-                xf:BottomBarPageExtensions.BadgeCount="1"
-                xf:BottomBarPageExtensions.BadgeColor="#FF3B30" />
+                xf:BottomBarPageExtensions.TabColor="#9cd4b1"  />
 
     <local:NewsPage Title="News"
                 Icon ="ic_rss_feed_black_24dp.png"

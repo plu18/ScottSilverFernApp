@@ -10,16 +10,18 @@ using Xamarin.Forms.Xaml;
 namespace ScottSilverFernApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MomentsPage : ContentPage
+	public partial class LoginPage : ContentPage
 	{
-		public MomentsPage ()
+		public LoginPage ()
 		{
 			InitializeComponent ();
 		}
-
-        private void TapGestureRecognizer_TappedLogin(object sender, EventArgs e)
+        private void Button_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new LoginPage());
+            string userName = username.Text;
+            string passWord = password.Text;
+            loginbutton.Text = userName + passWord;
         }
+        
     }
 }

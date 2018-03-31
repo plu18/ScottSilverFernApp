@@ -10,9 +10,9 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScottSilverFernApp.ViewModels
+namespace ScottSilverFernApp.Helpers
 {
-    public static class CustomCameraController
+    public static class CameraHelper
     {
 
         public static async Task<List<Species>> CommonOperationCameraLibPictures(Stream stream)
@@ -58,6 +58,7 @@ namespace ScottSilverFernApp.ViewModels
                     }
                     catch (Exception exp)
                     {
+
                     }
                     //relativeLayout.Children.Remove(relativeLayoutSubset);//remove google map
                     //relativeLayout.Children.Add(new IdentifyListView(speciesList));

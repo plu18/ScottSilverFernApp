@@ -9,6 +9,7 @@ using ScottSilverFernApp.ViewModels;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using ScottSilverFernApp.Helpers;
 
 namespace ScottSilverFernApp
 {
@@ -20,24 +21,34 @@ namespace ScottSilverFernApp
 		{
             
             InitializeComponent();
+            this.BindingContext = this;
+            this.IsBusy = false;
 
-            MessagingCenter.Subscribe<CustomCameraPage>(this, "Navigation1", async (sender) =>
+            MessagingCenter.Subscribe<CustomCameraPage>(this, "StartLoading", async (sender) =>
             {
-                IdentifyListPage identifyListPage = IdentifyListPage.getInstance();
-                await Navigation.PushAsync(identifyListPage);
+                this.IsBusy = true;
             });
 
-            MessagingCenter.Subscribe<CustomCameraPage, Stream>(this, "StreamSend", async (sender, arg) =>
+            MessagingCenter.Subscribe<CustomCameraPage>(this, "StopLoading", async (sender) =>
+            {
+                this.IsBusy = false;
+            });
+
+            MessagingCenter.Subscribe<CustomCameraPage, List<Species>>(this, "StreamSend", async (sender, arg) =>
             {
                 
-                List<Species> speciesList = await CustomCameraController.CommonOperationCameraLibPictures(arg);
+                //List<Species> speciesList = await CameraHelper.CommonOperationCameraLibPictures(arg);
 
-                IdentifyListPage identifyListPage = IdentifyListPage.getInstance();
+                IdentifyListPage identifyListPage = new IdentifyListPage();
+                
+                //await DisplayAlert(speciesList.Count.ToString(), "NULL", "KKKKKKKKKK");
+                if (arg.Any())
+                    identifyListPage.Content = new IdentifyListView(arg);
+
+                this.IsBusy = false;
+
                 await Navigation.PushAsync(identifyListPage);
-
-                await DisplayAlert(speciesList.Count.ToString(), "NULL", "!!!");
-                if (speciesList.Any())
-                    identifyListPage.Content = new IdentifyListView(speciesList);
+                
             });
         }
         

@@ -3431,6 +3431,1643 @@ namespace ScottSilverFernApp.Droid
 			global::PCLCrypto.Resource.String.ApplicationName = global::ScottSilverFernApp.Droid.Resource.String.ApplicationName;
 			global::PCLCrypto.Resource.String.Hello = global::ScottSilverFernApp.Droid.Resource.String.Hello;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarSize;
+			global::XFShapeView.Droid.Resource.Animation.abc_fade_in = global::ScottSilverFernApp.Droid.Resource.Animation.abc_fade_in;
+			global::XFShapeView.Droid.Resource.Animation.abc_fade_out = global::ScottSilverFernApp.Droid.Resource.Animation.abc_fade_out;
+			global::XFShapeView.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::ScottSilverFernApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::XFShapeView.Droid.Resource.Animation.abc_popup_enter = global::ScottSilverFernApp.Droid.Resource.Animation.abc_popup_enter;
+			global::XFShapeView.Droid.Resource.Animation.abc_popup_exit = global::ScottSilverFernApp.Droid.Resource.Animation.abc_popup_exit;
+			global::XFShapeView.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ScottSilverFernApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::XFShapeView.Droid.Resource.Animation.abc_slide_in_bottom = global::ScottSilverFernApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::XFShapeView.Droid.Resource.Animation.abc_slide_in_top = global::ScottSilverFernApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::XFShapeView.Droid.Resource.Animation.abc_slide_out_bottom = global::ScottSilverFernApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::XFShapeView.Droid.Resource.Animation.abc_slide_out_top = global::ScottSilverFernApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::XFShapeView.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::ScottSilverFernApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::XFShapeView.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::ScottSilverFernApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::XFShapeView.Droid.Resource.Animation.design_fab_in = global::ScottSilverFernApp.Droid.Resource.Animation.design_fab_in;
+			global::XFShapeView.Droid.Resource.Animation.design_fab_out = global::ScottSilverFernApp.Droid.Resource.Animation.design_fab_out;
+			global::XFShapeView.Droid.Resource.Animation.design_snackbar_in = global::ScottSilverFernApp.Droid.Resource.Animation.design_snackbar_in;
+			global::XFShapeView.Droid.Resource.Animation.design_snackbar_out = global::ScottSilverFernApp.Droid.Resource.Animation.design_snackbar_out;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarDivider = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarDivider;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarItemBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarPopupTheme = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarSize = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarSize;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarSplitStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarTabBarStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarTabStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarTabTextStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarTheme = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarTheme;
+			global::XFShapeView.Droid.Resource.Attribute.actionBarWidgetTheme = global::ScottSilverFernApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::XFShapeView.Droid.Resource.Attribute.actionButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionDropDownStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.actionLayout;
+			global::XFShapeView.Droid.Resource.Attribute.actionMenuTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.actionMenuTextColor = global::ScottSilverFernApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeBackground;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeCloseDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeCopyDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeCutDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeFindDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.actionModePasteDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.actionModePopupWindowStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeShareDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeSplitBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.actionOverflowButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionOverflowMenuStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::XFShapeView.Droid.Resource.Attribute.actionProviderClass = global::ScottSilverFernApp.Droid.Resource.Attribute.actionProviderClass;
+			global::XFShapeView.Droid.Resource.Attribute.actionViewClass = global::ScottSilverFernApp.Droid.Resource.Attribute.actionViewClass;
+			global::XFShapeView.Droid.Resource.Attribute.activityChooserViewStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::XFShapeView.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::XFShapeView.Droid.Resource.Attribute.alertDialogCenterButtons = global::ScottSilverFernApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::XFShapeView.Droid.Resource.Attribute.alertDialogStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::XFShapeView.Droid.Resource.Attribute.alertDialogTheme = global::ScottSilverFernApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::XFShapeView.Droid.Resource.Attribute.allowStacking = global::ScottSilverFernApp.Droid.Resource.Attribute.allowStacking;
+			global::XFShapeView.Droid.Resource.Attribute.arrowHeadLength = global::ScottSilverFernApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::XFShapeView.Droid.Resource.Attribute.arrowShaftLength = global::ScottSilverFernApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::XFShapeView.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::XFShapeView.Droid.Resource.Attribute.background = global::ScottSilverFernApp.Droid.Resource.Attribute.background;
+			global::XFShapeView.Droid.Resource.Attribute.backgroundSplit = global::ScottSilverFernApp.Droid.Resource.Attribute.backgroundSplit;
+			global::XFShapeView.Droid.Resource.Attribute.backgroundStacked = global::ScottSilverFernApp.Droid.Resource.Attribute.backgroundStacked;
+			global::XFShapeView.Droid.Resource.Attribute.backgroundTint = global::ScottSilverFernApp.Droid.Resource.Attribute.backgroundTint;
+			global::XFShapeView.Droid.Resource.Attribute.backgroundTintMode = global::ScottSilverFernApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::XFShapeView.Droid.Resource.Attribute.barLength = global::ScottSilverFernApp.Droid.Resource.Attribute.barLength;
+			global::XFShapeView.Droid.Resource.Attribute.behavior_hideable = global::ScottSilverFernApp.Droid.Resource.Attribute.behavior_hideable;
+			global::XFShapeView.Droid.Resource.Attribute.behavior_overlapTop = global::ScottSilverFernApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::XFShapeView.Droid.Resource.Attribute.behavior_peekHeight = global::ScottSilverFernApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::XFShapeView.Droid.Resource.Attribute.borderWidth = global::ScottSilverFernApp.Droid.Resource.Attribute.borderWidth;
+			global::XFShapeView.Droid.Resource.Attribute.borderlessButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.bottomSheetDialogTheme = global::ScottSilverFernApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::XFShapeView.Droid.Resource.Attribute.bottomSheetStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::XFShapeView.Droid.Resource.Attribute.buttonBarButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.buttonBarStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::XFShapeView.Droid.Resource.Attribute.buttonPanelSideLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::XFShapeView.Droid.Resource.Attribute.buttonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.buttonStyleSmall = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::XFShapeView.Droid.Resource.Attribute.buttonTint = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonTint;
+			global::XFShapeView.Droid.Resource.Attribute.buttonTintMode = global::ScottSilverFernApp.Droid.Resource.Attribute.buttonTintMode;
+			global::XFShapeView.Droid.Resource.Attribute.cardBackgroundColor = global::ScottSilverFernApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::XFShapeView.Droid.Resource.Attribute.cardCornerRadius = global::ScottSilverFernApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::XFShapeView.Droid.Resource.Attribute.cardElevation = global::ScottSilverFernApp.Droid.Resource.Attribute.cardElevation;
+			global::XFShapeView.Droid.Resource.Attribute.cardMaxElevation = global::ScottSilverFernApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::XFShapeView.Droid.Resource.Attribute.cardPreventCornerOverlap = global::ScottSilverFernApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::XFShapeView.Droid.Resource.Attribute.cardUseCompatPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::XFShapeView.Droid.Resource.Attribute.checkboxStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.checkboxStyle;
+			global::XFShapeView.Droid.Resource.Attribute.checkedTextViewStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::XFShapeView.Droid.Resource.Attribute.closeIcon = global::ScottSilverFernApp.Droid.Resource.Attribute.closeIcon;
+			global::XFShapeView.Droid.Resource.Attribute.closeItemLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.closeItemLayout;
+			global::XFShapeView.Droid.Resource.Attribute.collapseContentDescription = global::ScottSilverFernApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::XFShapeView.Droid.Resource.Attribute.collapseIcon = global::ScottSilverFernApp.Droid.Resource.Attribute.collapseIcon;
+			global::XFShapeView.Droid.Resource.Attribute.collapsedTitleGravity = global::ScottSilverFernApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::XFShapeView.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.color = global::ScottSilverFernApp.Droid.Resource.Attribute.color;
+			global::XFShapeView.Droid.Resource.Attribute.colorAccent = global::ScottSilverFernApp.Droid.Resource.Attribute.colorAccent;
+			global::XFShapeView.Droid.Resource.Attribute.colorButtonNormal = global::ScottSilverFernApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::XFShapeView.Droid.Resource.Attribute.colorControlActivated = global::ScottSilverFernApp.Droid.Resource.Attribute.colorControlActivated;
+			global::XFShapeView.Droid.Resource.Attribute.colorControlHighlight = global::ScottSilverFernApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::XFShapeView.Droid.Resource.Attribute.colorControlNormal = global::ScottSilverFernApp.Droid.Resource.Attribute.colorControlNormal;
+			global::XFShapeView.Droid.Resource.Attribute.colorPrimary = global::ScottSilverFernApp.Droid.Resource.Attribute.colorPrimary;
+			global::XFShapeView.Droid.Resource.Attribute.colorPrimaryDark = global::ScottSilverFernApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::XFShapeView.Droid.Resource.Attribute.colorSwitchThumbNormal = global::ScottSilverFernApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::XFShapeView.Droid.Resource.Attribute.commitIcon = global::ScottSilverFernApp.Droid.Resource.Attribute.commitIcon;
+			global::XFShapeView.Droid.Resource.Attribute.contentInsetEnd = global::ScottSilverFernApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::XFShapeView.Droid.Resource.Attribute.contentInsetLeft = global::ScottSilverFernApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::XFShapeView.Droid.Resource.Attribute.contentInsetRight = global::ScottSilverFernApp.Droid.Resource.Attribute.contentInsetRight;
+			global::XFShapeView.Droid.Resource.Attribute.contentInsetStart = global::ScottSilverFernApp.Droid.Resource.Attribute.contentInsetStart;
+			global::XFShapeView.Droid.Resource.Attribute.contentPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.contentPadding;
+			global::XFShapeView.Droid.Resource.Attribute.contentPaddingBottom = global::ScottSilverFernApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::XFShapeView.Droid.Resource.Attribute.contentPaddingLeft = global::ScottSilverFernApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::XFShapeView.Droid.Resource.Attribute.contentPaddingRight = global::ScottSilverFernApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::XFShapeView.Droid.Resource.Attribute.contentPaddingTop = global::ScottSilverFernApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::XFShapeView.Droid.Resource.Attribute.contentScrim = global::ScottSilverFernApp.Droid.Resource.Attribute.contentScrim;
+			global::XFShapeView.Droid.Resource.Attribute.controlBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.controlBackground;
+			global::XFShapeView.Droid.Resource.Attribute.counterEnabled = global::ScottSilverFernApp.Droid.Resource.Attribute.counterEnabled;
+			global::XFShapeView.Droid.Resource.Attribute.counterMaxLength = global::ScottSilverFernApp.Droid.Resource.Attribute.counterMaxLength;
+			global::XFShapeView.Droid.Resource.Attribute.counterOverflowTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.counterTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.customNavigationLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::XFShapeView.Droid.Resource.Attribute.defaultQueryHint = global::ScottSilverFernApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::XFShapeView.Droid.Resource.Attribute.dialogPreferredPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::XFShapeView.Droid.Resource.Attribute.dialogTheme = global::ScottSilverFernApp.Droid.Resource.Attribute.dialogTheme;
+			global::XFShapeView.Droid.Resource.Attribute.displayOptions = global::ScottSilverFernApp.Droid.Resource.Attribute.displayOptions;
+			global::XFShapeView.Droid.Resource.Attribute.divider = global::ScottSilverFernApp.Droid.Resource.Attribute.divider;
+			global::XFShapeView.Droid.Resource.Attribute.dividerHorizontal = global::ScottSilverFernApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::XFShapeView.Droid.Resource.Attribute.dividerPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.dividerPadding;
+			global::XFShapeView.Droid.Resource.Attribute.dividerVertical = global::ScottSilverFernApp.Droid.Resource.Attribute.dividerVertical;
+			global::XFShapeView.Droid.Resource.Attribute.drawableSize = global::ScottSilverFernApp.Droid.Resource.Attribute.drawableSize;
+			global::XFShapeView.Droid.Resource.Attribute.drawerArrowStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::XFShapeView.Droid.Resource.Attribute.dropDownListViewStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::XFShapeView.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::ScottSilverFernApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::XFShapeView.Droid.Resource.Attribute.editTextBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.editTextBackground;
+			global::XFShapeView.Droid.Resource.Attribute.editTextColor = global::ScottSilverFernApp.Droid.Resource.Attribute.editTextColor;
+			global::XFShapeView.Droid.Resource.Attribute.editTextStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.editTextStyle;
+			global::XFShapeView.Droid.Resource.Attribute.elevation = global::ScottSilverFernApp.Droid.Resource.Attribute.elevation;
+			global::XFShapeView.Droid.Resource.Attribute.errorEnabled = global::ScottSilverFernApp.Droid.Resource.Attribute.errorEnabled;
+			global::XFShapeView.Droid.Resource.Attribute.errorTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.expanded = global::ScottSilverFernApp.Droid.Resource.Attribute.expanded;
+			global::XFShapeView.Droid.Resource.Attribute.expandedTitleGravity = global::ScottSilverFernApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::XFShapeView.Droid.Resource.Attribute.expandedTitleMargin = global::ScottSilverFernApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::XFShapeView.Droid.Resource.Attribute.expandedTitleMarginBottom = global::ScottSilverFernApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::XFShapeView.Droid.Resource.Attribute.expandedTitleMarginEnd = global::ScottSilverFernApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::XFShapeView.Droid.Resource.Attribute.expandedTitleMarginStart = global::ScottSilverFernApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::XFShapeView.Droid.Resource.Attribute.expandedTitleMarginTop = global::ScottSilverFernApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::XFShapeView.Droid.Resource.Attribute.expandedTitleTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.fabSize = global::ScottSilverFernApp.Droid.Resource.Attribute.fabSize;
+			global::XFShapeView.Droid.Resource.Attribute.foregroundInsidePadding = global::ScottSilverFernApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::XFShapeView.Droid.Resource.Attribute.gapBetweenBars = global::ScottSilverFernApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::XFShapeView.Droid.Resource.Attribute.goIcon = global::ScottSilverFernApp.Droid.Resource.Attribute.goIcon;
+			global::XFShapeView.Droid.Resource.Attribute.headerLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.headerLayout;
+			global::XFShapeView.Droid.Resource.Attribute.height = global::ScottSilverFernApp.Droid.Resource.Attribute.height;
+			global::XFShapeView.Droid.Resource.Attribute.hideOnContentScroll = global::ScottSilverFernApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::XFShapeView.Droid.Resource.Attribute.hintAnimationEnabled = global::ScottSilverFernApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::XFShapeView.Droid.Resource.Attribute.hintEnabled = global::ScottSilverFernApp.Droid.Resource.Attribute.hintEnabled;
+			global::XFShapeView.Droid.Resource.Attribute.hintTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.homeAsUpIndicator = global::ScottSilverFernApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::XFShapeView.Droid.Resource.Attribute.homeLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.homeLayout;
+			global::XFShapeView.Droid.Resource.Attribute.icon = global::ScottSilverFernApp.Droid.Resource.Attribute.icon;
+			global::XFShapeView.Droid.Resource.Attribute.iconifiedByDefault = global::ScottSilverFernApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::XFShapeView.Droid.Resource.Attribute.imageButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.indeterminateProgressStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::XFShapeView.Droid.Resource.Attribute.initialActivityCount = global::ScottSilverFernApp.Droid.Resource.Attribute.initialActivityCount;
+			global::XFShapeView.Droid.Resource.Attribute.insetForeground = global::ScottSilverFernApp.Droid.Resource.Attribute.insetForeground;
+			global::XFShapeView.Droid.Resource.Attribute.isLightTheme = global::ScottSilverFernApp.Droid.Resource.Attribute.isLightTheme;
+			global::XFShapeView.Droid.Resource.Attribute.itemBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.itemBackground;
+			global::XFShapeView.Droid.Resource.Attribute.itemIconTint = global::ScottSilverFernApp.Droid.Resource.Attribute.itemIconTint;
+			global::XFShapeView.Droid.Resource.Attribute.itemPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.itemPadding;
+			global::XFShapeView.Droid.Resource.Attribute.itemTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.itemTextColor = global::ScottSilverFernApp.Droid.Resource.Attribute.itemTextColor;
+			global::XFShapeView.Droid.Resource.Attribute.keylines = global::ScottSilverFernApp.Droid.Resource.Attribute.keylines;
+			global::XFShapeView.Droid.Resource.Attribute.layout = global::ScottSilverFernApp.Droid.Resource.Attribute.layout;
+			global::XFShapeView.Droid.Resource.Attribute.layoutManager = global::ScottSilverFernApp.Droid.Resource.Attribute.layoutManager;
+			global::XFShapeView.Droid.Resource.Attribute.layout_anchor = global::ScottSilverFernApp.Droid.Resource.Attribute.layout_anchor;
+			global::XFShapeView.Droid.Resource.Attribute.layout_anchorGravity = global::ScottSilverFernApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::XFShapeView.Droid.Resource.Attribute.layout_behavior = global::ScottSilverFernApp.Droid.Resource.Attribute.layout_behavior;
+			global::XFShapeView.Droid.Resource.Attribute.layout_collapseMode = global::ScottSilverFernApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::XFShapeView.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::ScottSilverFernApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::XFShapeView.Droid.Resource.Attribute.layout_keyline = global::ScottSilverFernApp.Droid.Resource.Attribute.layout_keyline;
+			global::XFShapeView.Droid.Resource.Attribute.layout_scrollFlags = global::ScottSilverFernApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::XFShapeView.Droid.Resource.Attribute.layout_scrollInterpolator = global::ScottSilverFernApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::XFShapeView.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::ScottSilverFernApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::XFShapeView.Droid.Resource.Attribute.listDividerAlertDialog = global::ScottSilverFernApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::XFShapeView.Droid.Resource.Attribute.listItemLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.listItemLayout;
+			global::XFShapeView.Droid.Resource.Attribute.listLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.listLayout;
+			global::XFShapeView.Droid.Resource.Attribute.listPopupWindowStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::XFShapeView.Droid.Resource.Attribute.listPreferredItemHeight = global::ScottSilverFernApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::XFShapeView.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::ScottSilverFernApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::XFShapeView.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::ScottSilverFernApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::XFShapeView.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::ScottSilverFernApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::XFShapeView.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::ScottSilverFernApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::XFShapeView.Droid.Resource.Attribute.logo = global::ScottSilverFernApp.Droid.Resource.Attribute.logo;
+			global::XFShapeView.Droid.Resource.Attribute.logoDescription = global::ScottSilverFernApp.Droid.Resource.Attribute.logoDescription;
+			global::XFShapeView.Droid.Resource.Attribute.maxActionInlineWidth = global::ScottSilverFernApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::XFShapeView.Droid.Resource.Attribute.maxButtonHeight = global::ScottSilverFernApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::XFShapeView.Droid.Resource.Attribute.measureWithLargestChild = global::ScottSilverFernApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::XFShapeView.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.mediaRouteButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::ScottSilverFernApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::XFShapeView.Droid.Resource.Attribute.menu = global::ScottSilverFernApp.Droid.Resource.Attribute.menu;
+			global::XFShapeView.Droid.Resource.Attribute.multiChoiceItemLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::XFShapeView.Droid.Resource.Attribute.navigationContentDescription = global::ScottSilverFernApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::XFShapeView.Droid.Resource.Attribute.navigationIcon = global::ScottSilverFernApp.Droid.Resource.Attribute.navigationIcon;
+			global::XFShapeView.Droid.Resource.Attribute.navigationMode = global::ScottSilverFernApp.Droid.Resource.Attribute.navigationMode;
+			global::XFShapeView.Droid.Resource.Attribute.overlapAnchor = global::ScottSilverFernApp.Droid.Resource.Attribute.overlapAnchor;
+			global::XFShapeView.Droid.Resource.Attribute.paddingEnd = global::ScottSilverFernApp.Droid.Resource.Attribute.paddingEnd;
+			global::XFShapeView.Droid.Resource.Attribute.paddingStart = global::ScottSilverFernApp.Droid.Resource.Attribute.paddingStart;
+			global::XFShapeView.Droid.Resource.Attribute.panelBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.panelBackground;
+			global::XFShapeView.Droid.Resource.Attribute.panelMenuListTheme = global::ScottSilverFernApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::XFShapeView.Droid.Resource.Attribute.panelMenuListWidth = global::ScottSilverFernApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::XFShapeView.Droid.Resource.Attribute.popupMenuStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::XFShapeView.Droid.Resource.Attribute.popupTheme = global::ScottSilverFernApp.Droid.Resource.Attribute.popupTheme;
+			global::XFShapeView.Droid.Resource.Attribute.popupWindowStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::XFShapeView.Droid.Resource.Attribute.preserveIconSpacing = global::ScottSilverFernApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::XFShapeView.Droid.Resource.Attribute.pressedTranslationZ = global::ScottSilverFernApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::XFShapeView.Droid.Resource.Attribute.progressBarPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.progressBarPadding;
+			global::XFShapeView.Droid.Resource.Attribute.progressBarStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.progressBarStyle;
+			global::XFShapeView.Droid.Resource.Attribute.queryBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.queryBackground;
+			global::XFShapeView.Droid.Resource.Attribute.queryHint = global::ScottSilverFernApp.Droid.Resource.Attribute.queryHint;
+			global::XFShapeView.Droid.Resource.Attribute.radioButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.ratingBarStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::XFShapeView.Droid.Resource.Attribute.ratingBarStyleIndicator = global::ScottSilverFernApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::XFShapeView.Droid.Resource.Attribute.ratingBarStyleSmall = global::ScottSilverFernApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::XFShapeView.Droid.Resource.Attribute.reverseLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.reverseLayout;
+			global::XFShapeView.Droid.Resource.Attribute.rippleColor = global::ScottSilverFernApp.Droid.Resource.Attribute.rippleColor;
+			global::XFShapeView.Droid.Resource.Attribute.searchHintIcon = global::ScottSilverFernApp.Droid.Resource.Attribute.searchHintIcon;
+			global::XFShapeView.Droid.Resource.Attribute.searchIcon = global::ScottSilverFernApp.Droid.Resource.Attribute.searchIcon;
+			global::XFShapeView.Droid.Resource.Attribute.searchViewStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.searchViewStyle;
+			global::XFShapeView.Droid.Resource.Attribute.seekBarStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.seekBarStyle;
+			global::XFShapeView.Droid.Resource.Attribute.selectableItemBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::XFShapeView.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::ScottSilverFernApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::XFShapeView.Droid.Resource.Attribute.showAsAction = global::ScottSilverFernApp.Droid.Resource.Attribute.showAsAction;
+			global::XFShapeView.Droid.Resource.Attribute.showDividers = global::ScottSilverFernApp.Droid.Resource.Attribute.showDividers;
+			global::XFShapeView.Droid.Resource.Attribute.showText = global::ScottSilverFernApp.Droid.Resource.Attribute.showText;
+			global::XFShapeView.Droid.Resource.Attribute.singleChoiceItemLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::XFShapeView.Droid.Resource.Attribute.spanCount = global::ScottSilverFernApp.Droid.Resource.Attribute.spanCount;
+			global::XFShapeView.Droid.Resource.Attribute.spinBars = global::ScottSilverFernApp.Droid.Resource.Attribute.spinBars;
+			global::XFShapeView.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::XFShapeView.Droid.Resource.Attribute.spinnerStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.spinnerStyle;
+			global::XFShapeView.Droid.Resource.Attribute.splitTrack = global::ScottSilverFernApp.Droid.Resource.Attribute.splitTrack;
+			global::XFShapeView.Droid.Resource.Attribute.srcCompat = global::ScottSilverFernApp.Droid.Resource.Attribute.srcCompat;
+			global::XFShapeView.Droid.Resource.Attribute.stackFromEnd = global::ScottSilverFernApp.Droid.Resource.Attribute.stackFromEnd;
+			global::XFShapeView.Droid.Resource.Attribute.state_above_anchor = global::ScottSilverFernApp.Droid.Resource.Attribute.state_above_anchor;
+			global::XFShapeView.Droid.Resource.Attribute.statusBarBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.statusBarBackground;
+			global::XFShapeView.Droid.Resource.Attribute.statusBarScrim = global::ScottSilverFernApp.Droid.Resource.Attribute.statusBarScrim;
+			global::XFShapeView.Droid.Resource.Attribute.submitBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.submitBackground;
+			global::XFShapeView.Droid.Resource.Attribute.subtitle = global::ScottSilverFernApp.Droid.Resource.Attribute.subtitle;
+			global::XFShapeView.Droid.Resource.Attribute.subtitleTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.subtitleTextColor = global::ScottSilverFernApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::XFShapeView.Droid.Resource.Attribute.subtitleTextStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::XFShapeView.Droid.Resource.Attribute.suggestionRowLayout = global::ScottSilverFernApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::XFShapeView.Droid.Resource.Attribute.switchMinWidth = global::ScottSilverFernApp.Droid.Resource.Attribute.switchMinWidth;
+			global::XFShapeView.Droid.Resource.Attribute.switchPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.switchPadding;
+			global::XFShapeView.Droid.Resource.Attribute.switchStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.switchStyle;
+			global::XFShapeView.Droid.Resource.Attribute.switchTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.tabBackground = global::ScottSilverFernApp.Droid.Resource.Attribute.tabBackground;
+			global::XFShapeView.Droid.Resource.Attribute.tabContentStart = global::ScottSilverFernApp.Droid.Resource.Attribute.tabContentStart;
+			global::XFShapeView.Droid.Resource.Attribute.tabGravity = global::ScottSilverFernApp.Droid.Resource.Attribute.tabGravity;
+			global::XFShapeView.Droid.Resource.Attribute.tabIndicatorColor = global::ScottSilverFernApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::XFShapeView.Droid.Resource.Attribute.tabIndicatorHeight = global::ScottSilverFernApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::XFShapeView.Droid.Resource.Attribute.tabMaxWidth = global::ScottSilverFernApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::XFShapeView.Droid.Resource.Attribute.tabMinWidth = global::ScottSilverFernApp.Droid.Resource.Attribute.tabMinWidth;
+			global::XFShapeView.Droid.Resource.Attribute.tabMode = global::ScottSilverFernApp.Droid.Resource.Attribute.tabMode;
+			global::XFShapeView.Droid.Resource.Attribute.tabPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.tabPadding;
+			global::XFShapeView.Droid.Resource.Attribute.tabPaddingBottom = global::ScottSilverFernApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::XFShapeView.Droid.Resource.Attribute.tabPaddingEnd = global::ScottSilverFernApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::XFShapeView.Droid.Resource.Attribute.tabPaddingStart = global::ScottSilverFernApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::XFShapeView.Droid.Resource.Attribute.tabPaddingTop = global::ScottSilverFernApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::XFShapeView.Droid.Resource.Attribute.tabSelectedTextColor = global::ScottSilverFernApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::XFShapeView.Droid.Resource.Attribute.tabTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.tabTextColor = global::ScottSilverFernApp.Droid.Resource.Attribute.tabTextColor;
+			global::XFShapeView.Droid.Resource.Attribute.textAllCaps = global::ScottSilverFernApp.Droid.Resource.Attribute.textAllCaps;
+			global::XFShapeView.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::ScottSilverFernApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::XFShapeView.Droid.Resource.Attribute.textAppearanceListItem = global::ScottSilverFernApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::XFShapeView.Droid.Resource.Attribute.textAppearanceListItemSmall = global::ScottSilverFernApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::XFShapeView.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ScottSilverFernApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::XFShapeView.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::ScottSilverFernApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::XFShapeView.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::ScottSilverFernApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::XFShapeView.Droid.Resource.Attribute.textColorAlertDialogListItem = global::ScottSilverFernApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::XFShapeView.Droid.Resource.Attribute.textColorError = global::ScottSilverFernApp.Droid.Resource.Attribute.textColorError;
+			global::XFShapeView.Droid.Resource.Attribute.textColorSearchUrl = global::ScottSilverFernApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::XFShapeView.Droid.Resource.Attribute.theme = global::ScottSilverFernApp.Droid.Resource.Attribute.theme;
+			global::XFShapeView.Droid.Resource.Attribute.thickness = global::ScottSilverFernApp.Droid.Resource.Attribute.thickness;
+			global::XFShapeView.Droid.Resource.Attribute.thumbTextPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::XFShapeView.Droid.Resource.Attribute.title = global::ScottSilverFernApp.Droid.Resource.Attribute.title;
+			global::XFShapeView.Droid.Resource.Attribute.titleEnabled = global::ScottSilverFernApp.Droid.Resource.Attribute.titleEnabled;
+			global::XFShapeView.Droid.Resource.Attribute.titleMarginBottom = global::ScottSilverFernApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::XFShapeView.Droid.Resource.Attribute.titleMarginEnd = global::ScottSilverFernApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::XFShapeView.Droid.Resource.Attribute.titleMarginStart = global::ScottSilverFernApp.Droid.Resource.Attribute.titleMarginStart;
+			global::XFShapeView.Droid.Resource.Attribute.titleMarginTop = global::ScottSilverFernApp.Droid.Resource.Attribute.titleMarginTop;
+			global::XFShapeView.Droid.Resource.Attribute.titleMargins = global::ScottSilverFernApp.Droid.Resource.Attribute.titleMargins;
+			global::XFShapeView.Droid.Resource.Attribute.titleTextAppearance = global::ScottSilverFernApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::XFShapeView.Droid.Resource.Attribute.titleTextColor = global::ScottSilverFernApp.Droid.Resource.Attribute.titleTextColor;
+			global::XFShapeView.Droid.Resource.Attribute.titleTextStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.titleTextStyle;
+			global::XFShapeView.Droid.Resource.Attribute.toolbarId = global::ScottSilverFernApp.Droid.Resource.Attribute.toolbarId;
+			global::XFShapeView.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::XFShapeView.Droid.Resource.Attribute.toolbarStyle = global::ScottSilverFernApp.Droid.Resource.Attribute.toolbarStyle;
+			global::XFShapeView.Droid.Resource.Attribute.track = global::ScottSilverFernApp.Droid.Resource.Attribute.track;
+			global::XFShapeView.Droid.Resource.Attribute.useCompatPadding = global::ScottSilverFernApp.Droid.Resource.Attribute.useCompatPadding;
+			global::XFShapeView.Droid.Resource.Attribute.voiceIcon = global::ScottSilverFernApp.Droid.Resource.Attribute.voiceIcon;
+			global::XFShapeView.Droid.Resource.Attribute.windowActionBar = global::ScottSilverFernApp.Droid.Resource.Attribute.windowActionBar;
+			global::XFShapeView.Droid.Resource.Attribute.windowActionBarOverlay = global::ScottSilverFernApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::XFShapeView.Droid.Resource.Attribute.windowActionModeOverlay = global::ScottSilverFernApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::XFShapeView.Droid.Resource.Attribute.windowFixedHeightMajor = global::ScottSilverFernApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::XFShapeView.Droid.Resource.Attribute.windowFixedHeightMinor = global::ScottSilverFernApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::XFShapeView.Droid.Resource.Attribute.windowFixedWidthMajor = global::ScottSilverFernApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::XFShapeView.Droid.Resource.Attribute.windowFixedWidthMinor = global::ScottSilverFernApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::XFShapeView.Droid.Resource.Attribute.windowMinWidthMajor = global::ScottSilverFernApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::XFShapeView.Droid.Resource.Attribute.windowMinWidthMinor = global::ScottSilverFernApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::XFShapeView.Droid.Resource.Attribute.windowNoTitle = global::ScottSilverFernApp.Droid.Resource.Attribute.windowNoTitle;
+			global::XFShapeView.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::ScottSilverFernApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::XFShapeView.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::ScottSilverFernApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::XFShapeView.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ScottSilverFernApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::XFShapeView.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::ScottSilverFernApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::XFShapeView.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::ScottSilverFernApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::XFShapeView.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::XFShapeView.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::ScottSilverFernApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::XFShapeView.Droid.Resource.Color.abc_color_highlight_material = global::ScottSilverFernApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::XFShapeView.Droid.Resource.Color.abc_input_method_navigation_guard = global::ScottSilverFernApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::XFShapeView.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::XFShapeView.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::ScottSilverFernApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::XFShapeView.Droid.Resource.Color.abc_primary_text_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::XFShapeView.Droid.Resource.Color.abc_primary_text_material_light = global::ScottSilverFernApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::XFShapeView.Droid.Resource.Color.abc_search_url_text = global::ScottSilverFernApp.Droid.Resource.Color.abc_search_url_text;
+			global::XFShapeView.Droid.Resource.Color.abc_search_url_text_normal = global::ScottSilverFernApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::XFShapeView.Droid.Resource.Color.abc_search_url_text_pressed = global::ScottSilverFernApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::XFShapeView.Droid.Resource.Color.abc_search_url_text_selected = global::ScottSilverFernApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::XFShapeView.Droid.Resource.Color.abc_secondary_text_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::XFShapeView.Droid.Resource.Color.abc_secondary_text_material_light = global::ScottSilverFernApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::XFShapeView.Droid.Resource.Color.accent_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.accent_material_dark;
+			global::XFShapeView.Droid.Resource.Color.accent_material_light = global::ScottSilverFernApp.Droid.Resource.Color.accent_material_light;
+			global::XFShapeView.Droid.Resource.Color.background_floating_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.background_floating_material_dark;
+			global::XFShapeView.Droid.Resource.Color.background_floating_material_light = global::ScottSilverFernApp.Droid.Resource.Color.background_floating_material_light;
+			global::XFShapeView.Droid.Resource.Color.background_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.background_material_dark;
+			global::XFShapeView.Droid.Resource.Color.background_material_light = global::ScottSilverFernApp.Droid.Resource.Color.background_material_light;
+			global::XFShapeView.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::XFShapeView.Droid.Resource.Color.bright_foreground_disabled_material_light = global::ScottSilverFernApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::XFShapeView.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::XFShapeView.Droid.Resource.Color.bright_foreground_inverse_material_light = global::ScottSilverFernApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::XFShapeView.Droid.Resource.Color.bright_foreground_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::XFShapeView.Droid.Resource.Color.bright_foreground_material_light = global::ScottSilverFernApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::XFShapeView.Droid.Resource.Color.button_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.button_material_dark;
+			global::XFShapeView.Droid.Resource.Color.button_material_light = global::ScottSilverFernApp.Droid.Resource.Color.button_material_light;
+			global::XFShapeView.Droid.Resource.Color.cardview_dark_background = global::ScottSilverFernApp.Droid.Resource.Color.cardview_dark_background;
+			global::XFShapeView.Droid.Resource.Color.cardview_light_background = global::ScottSilverFernApp.Droid.Resource.Color.cardview_light_background;
+			global::XFShapeView.Droid.Resource.Color.cardview_shadow_end_color = global::ScottSilverFernApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::XFShapeView.Droid.Resource.Color.cardview_shadow_start_color = global::ScottSilverFernApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::XFShapeView.Droid.Resource.Color.design_fab_shadow_end_color = global::ScottSilverFernApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::XFShapeView.Droid.Resource.Color.design_fab_shadow_mid_color = global::ScottSilverFernApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::XFShapeView.Droid.Resource.Color.design_fab_shadow_start_color = global::ScottSilverFernApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::XFShapeView.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::ScottSilverFernApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::XFShapeView.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::ScottSilverFernApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::XFShapeView.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::ScottSilverFernApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::XFShapeView.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::ScottSilverFernApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::XFShapeView.Droid.Resource.Color.design_snackbar_background_color = global::ScottSilverFernApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::XFShapeView.Droid.Resource.Color.design_textinput_error_color_dark = global::ScottSilverFernApp.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::XFShapeView.Droid.Resource.Color.design_textinput_error_color_light = global::ScottSilverFernApp.Droid.Resource.Color.design_textinput_error_color_light;
+			global::XFShapeView.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::XFShapeView.Droid.Resource.Color.dim_foreground_disabled_material_light = global::ScottSilverFernApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::XFShapeView.Droid.Resource.Color.dim_foreground_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::XFShapeView.Droid.Resource.Color.dim_foreground_material_light = global::ScottSilverFernApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::XFShapeView.Droid.Resource.Color.foreground_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.foreground_material_dark;
+			global::XFShapeView.Droid.Resource.Color.foreground_material_light = global::ScottSilverFernApp.Droid.Resource.Color.foreground_material_light;
+			global::XFShapeView.Droid.Resource.Color.highlighted_text_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::XFShapeView.Droid.Resource.Color.highlighted_text_material_light = global::ScottSilverFernApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::XFShapeView.Droid.Resource.Color.material_blue_grey_800 = global::ScottSilverFernApp.Droid.Resource.Color.material_blue_grey_800;
+			global::XFShapeView.Droid.Resource.Color.material_blue_grey_900 = global::ScottSilverFernApp.Droid.Resource.Color.material_blue_grey_900;
+			global::XFShapeView.Droid.Resource.Color.material_blue_grey_950 = global::ScottSilverFernApp.Droid.Resource.Color.material_blue_grey_950;
+			global::XFShapeView.Droid.Resource.Color.material_deep_teal_200 = global::ScottSilverFernApp.Droid.Resource.Color.material_deep_teal_200;
+			global::XFShapeView.Droid.Resource.Color.material_deep_teal_500 = global::ScottSilverFernApp.Droid.Resource.Color.material_deep_teal_500;
+			global::XFShapeView.Droid.Resource.Color.material_grey_100 = global::ScottSilverFernApp.Droid.Resource.Color.material_grey_100;
+			global::XFShapeView.Droid.Resource.Color.material_grey_300 = global::ScottSilverFernApp.Droid.Resource.Color.material_grey_300;
+			global::XFShapeView.Droid.Resource.Color.material_grey_50 = global::ScottSilverFernApp.Droid.Resource.Color.material_grey_50;
+			global::XFShapeView.Droid.Resource.Color.material_grey_600 = global::ScottSilverFernApp.Droid.Resource.Color.material_grey_600;
+			global::XFShapeView.Droid.Resource.Color.material_grey_800 = global::ScottSilverFernApp.Droid.Resource.Color.material_grey_800;
+			global::XFShapeView.Droid.Resource.Color.material_grey_850 = global::ScottSilverFernApp.Droid.Resource.Color.material_grey_850;
+			global::XFShapeView.Droid.Resource.Color.material_grey_900 = global::ScottSilverFernApp.Droid.Resource.Color.material_grey_900;
+			global::XFShapeView.Droid.Resource.Color.primary_dark_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::XFShapeView.Droid.Resource.Color.primary_dark_material_light = global::ScottSilverFernApp.Droid.Resource.Color.primary_dark_material_light;
+			global::XFShapeView.Droid.Resource.Color.primary_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.primary_material_dark;
+			global::XFShapeView.Droid.Resource.Color.primary_material_light = global::ScottSilverFernApp.Droid.Resource.Color.primary_material_light;
+			global::XFShapeView.Droid.Resource.Color.primary_text_default_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::XFShapeView.Droid.Resource.Color.primary_text_default_material_light = global::ScottSilverFernApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::XFShapeView.Droid.Resource.Color.primary_text_disabled_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::XFShapeView.Droid.Resource.Color.primary_text_disabled_material_light = global::ScottSilverFernApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::XFShapeView.Droid.Resource.Color.ripple_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.ripple_material_dark;
+			global::XFShapeView.Droid.Resource.Color.ripple_material_light = global::ScottSilverFernApp.Droid.Resource.Color.ripple_material_light;
+			global::XFShapeView.Droid.Resource.Color.secondary_text_default_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::XFShapeView.Droid.Resource.Color.secondary_text_default_material_light = global::ScottSilverFernApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::XFShapeView.Droid.Resource.Color.secondary_text_disabled_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::XFShapeView.Droid.Resource.Color.secondary_text_disabled_material_light = global::ScottSilverFernApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::XFShapeView.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::XFShapeView.Droid.Resource.Color.switch_thumb_disabled_material_light = global::ScottSilverFernApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::XFShapeView.Droid.Resource.Color.switch_thumb_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::XFShapeView.Droid.Resource.Color.switch_thumb_material_light = global::ScottSilverFernApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::XFShapeView.Droid.Resource.Color.switch_thumb_normal_material_dark = global::ScottSilverFernApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::XFShapeView.Droid.Resource.Color.switch_thumb_normal_material_light = global::ScottSilverFernApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_button_min_height_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_button_min_width_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::XFShapeView.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::XFShapeView.Droid.Resource.Dimension.abc_control_corner_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_control_inset_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_control_padding_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dialog_min_width_major = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dialog_padding_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::XFShapeView.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::XFShapeView.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::XFShapeView.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_floating_window_z = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::XFShapeView.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_panel_menu_list_width = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::XFShapeView.Droid.Resource.Dimension.abc_search_view_preferred_width = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::XFShapeView.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_switch_padding = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_body_1_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_body_2_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_button_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_caption_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_display_1_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_display_2_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_display_3_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_display_4_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_headline_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_large_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_medium_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_menu_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_small_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_subhead_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_title_material = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::XFShapeView.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::ScottSilverFernApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::XFShapeView.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::ScottSilverFernApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::XFShapeView.Droid.Resource.Dimension.cardview_default_elevation = global::ScottSilverFernApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::XFShapeView.Droid.Resource.Dimension.cardview_default_radius = global::ScottSilverFernApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::XFShapeView.Droid.Resource.Dimension.design_appbar_elevation = global::ScottSilverFernApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::XFShapeView.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ScottSilverFernApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::XFShapeView.Droid.Resource.Dimension.design_fab_border_width = global::ScottSilverFernApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::XFShapeView.Droid.Resource.Dimension.design_fab_elevation = global::ScottSilverFernApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::XFShapeView.Droid.Resource.Dimension.design_fab_image_size = global::ScottSilverFernApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::XFShapeView.Droid.Resource.Dimension.design_fab_size_mini = global::ScottSilverFernApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::XFShapeView.Droid.Resource.Dimension.design_fab_size_normal = global::ScottSilverFernApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::XFShapeView.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::ScottSilverFernApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::XFShapeView.Droid.Resource.Dimension.design_navigation_elevation = global::ScottSilverFernApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::XFShapeView.Droid.Resource.Dimension.design_navigation_icon_padding = global::ScottSilverFernApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::XFShapeView.Droid.Resource.Dimension.design_navigation_icon_size = global::ScottSilverFernApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::XFShapeView.Droid.Resource.Dimension.design_navigation_max_width = global::ScottSilverFernApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::XFShapeView.Droid.Resource.Dimension.design_navigation_padding_bottom = global::ScottSilverFernApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::XFShapeView.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::ScottSilverFernApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_elevation = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_max_width = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_min_width = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::XFShapeView.Droid.Resource.Dimension.design_snackbar_text_size = global::ScottSilverFernApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::XFShapeView.Droid.Resource.Dimension.design_tab_max_width = global::ScottSilverFernApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::XFShapeView.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::ScottSilverFernApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::XFShapeView.Droid.Resource.Dimension.design_tab_text_size = global::ScottSilverFernApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::XFShapeView.Droid.Resource.Dimension.design_tab_text_size_2line = global::ScottSilverFernApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::XFShapeView.Droid.Resource.Dimension.disabled_alpha_material_dark = global::ScottSilverFernApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::XFShapeView.Droid.Resource.Dimension.disabled_alpha_material_light = global::ScottSilverFernApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::XFShapeView.Droid.Resource.Dimension.highlight_alpha_material_colored = global::ScottSilverFernApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::XFShapeView.Droid.Resource.Dimension.highlight_alpha_material_dark = global::ScottSilverFernApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::XFShapeView.Droid.Resource.Dimension.highlight_alpha_material_light = global::ScottSilverFernApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::XFShapeView.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ScottSilverFernApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::XFShapeView.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ScottSilverFernApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::XFShapeView.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ScottSilverFernApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::XFShapeView.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::ScottSilverFernApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::XFShapeView.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::ScottSilverFernApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::XFShapeView.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::ScottSilverFernApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::XFShapeView.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::ScottSilverFernApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::XFShapeView.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::ScottSilverFernApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::XFShapeView.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::ScottSilverFernApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::XFShapeView.Droid.Resource.Dimension.notification_large_icon_height = global::ScottSilverFernApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::XFShapeView.Droid.Resource.Dimension.notification_large_icon_width = global::ScottSilverFernApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::XFShapeView.Droid.Resource.Dimension.notification_subtext_size = global::ScottSilverFernApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_borderless_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_check_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_colored_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_radio_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::XFShapeView.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::XFShapeView.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::XFShapeView.Droid.Resource.Drawable.abc_cab_background_top_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_control_background_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_edit_text_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::XFShapeView.Droid.Resource.Drawable.abc_item_background_holo_dark = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::XFShapeView.Droid.Resource.Drawable.abc_item_background_holo_light = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_focused_holo = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_longpressed_holo = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::XFShapeView.Droid.Resource.Drawable.abc_list_selector_holo_light = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::XFShapeView.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::XFShapeView.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_ratingbar_small_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::XFShapeView.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::XFShapeView.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_seekbar_track_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_switch_thumb_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_tab_indicator_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_text_cursor_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::XFShapeView.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::XFShapeView.Droid.Resource.Drawable.abc_textfield_search_material = global::ScottSilverFernApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::XFShapeView.Droid.Resource.Drawable.design_fab_background = global::ScottSilverFernApp.Droid.Resource.Drawable.design_fab_background;
+			global::XFShapeView.Droid.Resource.Drawable.design_snackbar_background = global::ScottSilverFernApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::XFShapeView.Droid.Resource.Drawable.ic_audiotrack_light = global::ScottSilverFernApp.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::XFShapeView.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::ScottSilverFernApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::XFShapeView.Droid.Resource.Drawable.mr_dialog_material_background_light = global::ScottSilverFernApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::XFShapeView.Droid.Resource.Drawable.notification_template_icon_bg = global::ScottSilverFernApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::XFShapeView.Droid.Resource.Id.action0 = global::ScottSilverFernApp.Droid.Resource.Id.action0;
+			global::XFShapeView.Droid.Resource.Id.action_bar = global::ScottSilverFernApp.Droid.Resource.Id.action_bar;
+			global::XFShapeView.Droid.Resource.Id.action_bar_activity_content = global::ScottSilverFernApp.Droid.Resource.Id.action_bar_activity_content;
+			global::XFShapeView.Droid.Resource.Id.action_bar_container = global::ScottSilverFernApp.Droid.Resource.Id.action_bar_container;
+			global::XFShapeView.Droid.Resource.Id.action_bar_root = global::ScottSilverFernApp.Droid.Resource.Id.action_bar_root;
+			global::XFShapeView.Droid.Resource.Id.action_bar_spinner = global::ScottSilverFernApp.Droid.Resource.Id.action_bar_spinner;
+			global::XFShapeView.Droid.Resource.Id.action_bar_subtitle = global::ScottSilverFernApp.Droid.Resource.Id.action_bar_subtitle;
+			global::XFShapeView.Droid.Resource.Id.action_bar_title = global::ScottSilverFernApp.Droid.Resource.Id.action_bar_title;
+			global::XFShapeView.Droid.Resource.Id.action_context_bar = global::ScottSilverFernApp.Droid.Resource.Id.action_context_bar;
+			global::XFShapeView.Droid.Resource.Id.action_divider = global::ScottSilverFernApp.Droid.Resource.Id.action_divider;
+			global::XFShapeView.Droid.Resource.Id.action_menu_divider = global::ScottSilverFernApp.Droid.Resource.Id.action_menu_divider;
+			global::XFShapeView.Droid.Resource.Id.action_menu_presenter = global::ScottSilverFernApp.Droid.Resource.Id.action_menu_presenter;
+			global::XFShapeView.Droid.Resource.Id.action_mode_bar = global::ScottSilverFernApp.Droid.Resource.Id.action_mode_bar;
+			global::XFShapeView.Droid.Resource.Id.action_mode_bar_stub = global::ScottSilverFernApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::XFShapeView.Droid.Resource.Id.action_mode_close_button = global::ScottSilverFernApp.Droid.Resource.Id.action_mode_close_button;
+			global::XFShapeView.Droid.Resource.Id.activity_chooser_view_content = global::ScottSilverFernApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::XFShapeView.Droid.Resource.Id.alertTitle = global::ScottSilverFernApp.Droid.Resource.Id.alertTitle;
+			global::XFShapeView.Droid.Resource.Id.always = global::ScottSilverFernApp.Droid.Resource.Id.always;
+			global::XFShapeView.Droid.Resource.Id.beginning = global::ScottSilverFernApp.Droid.Resource.Id.beginning;
+			global::XFShapeView.Droid.Resource.Id.bottom = global::ScottSilverFernApp.Droid.Resource.Id.bottom;
+			global::XFShapeView.Droid.Resource.Id.buttonPanel = global::ScottSilverFernApp.Droid.Resource.Id.buttonPanel;
+			global::XFShapeView.Droid.Resource.Id.cancel_action = global::ScottSilverFernApp.Droid.Resource.Id.cancel_action;
+			global::XFShapeView.Droid.Resource.Id.center = global::ScottSilverFernApp.Droid.Resource.Id.center;
+			global::XFShapeView.Droid.Resource.Id.center_horizontal = global::ScottSilverFernApp.Droid.Resource.Id.center_horizontal;
+			global::XFShapeView.Droid.Resource.Id.center_vertical = global::ScottSilverFernApp.Droid.Resource.Id.center_vertical;
+			global::XFShapeView.Droid.Resource.Id.checkbox = global::ScottSilverFernApp.Droid.Resource.Id.checkbox;
+			global::XFShapeView.Droid.Resource.Id.chronometer = global::ScottSilverFernApp.Droid.Resource.Id.chronometer;
+			global::XFShapeView.Droid.Resource.Id.clip_horizontal = global::ScottSilverFernApp.Droid.Resource.Id.clip_horizontal;
+			global::XFShapeView.Droid.Resource.Id.clip_vertical = global::ScottSilverFernApp.Droid.Resource.Id.clip_vertical;
+			global::XFShapeView.Droid.Resource.Id.collapseActionView = global::ScottSilverFernApp.Droid.Resource.Id.collapseActionView;
+			global::XFShapeView.Droid.Resource.Id.contentPanel = global::ScottSilverFernApp.Droid.Resource.Id.contentPanel;
+			global::XFShapeView.Droid.Resource.Id.custom = global::ScottSilverFernApp.Droid.Resource.Id.custom;
+			global::XFShapeView.Droid.Resource.Id.customPanel = global::ScottSilverFernApp.Droid.Resource.Id.customPanel;
+			global::XFShapeView.Droid.Resource.Id.decor_content_parent = global::ScottSilverFernApp.Droid.Resource.Id.decor_content_parent;
+			global::XFShapeView.Droid.Resource.Id.default_activity_button = global::ScottSilverFernApp.Droid.Resource.Id.default_activity_button;
+			global::XFShapeView.Droid.Resource.Id.design_bottom_sheet = global::ScottSilverFernApp.Droid.Resource.Id.design_bottom_sheet;
+			global::XFShapeView.Droid.Resource.Id.design_menu_item_action_area = global::ScottSilverFernApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::XFShapeView.Droid.Resource.Id.design_menu_item_action_area_stub = global::ScottSilverFernApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::XFShapeView.Droid.Resource.Id.design_menu_item_text = global::ScottSilverFernApp.Droid.Resource.Id.design_menu_item_text;
+			global::XFShapeView.Droid.Resource.Id.design_navigation_view = global::ScottSilverFernApp.Droid.Resource.Id.design_navigation_view;
+			global::XFShapeView.Droid.Resource.Id.disableHome = global::ScottSilverFernApp.Droid.Resource.Id.disableHome;
+			global::XFShapeView.Droid.Resource.Id.edit_query = global::ScottSilverFernApp.Droid.Resource.Id.edit_query;
+			global::XFShapeView.Droid.Resource.Id.end = global::ScottSilverFernApp.Droid.Resource.Id.end;
+			global::XFShapeView.Droid.Resource.Id.end_padder = global::ScottSilverFernApp.Droid.Resource.Id.end_padder;
+			global::XFShapeView.Droid.Resource.Id.enterAlways = global::ScottSilverFernApp.Droid.Resource.Id.enterAlways;
+			global::XFShapeView.Droid.Resource.Id.enterAlwaysCollapsed = global::ScottSilverFernApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::XFShapeView.Droid.Resource.Id.exitUntilCollapsed = global::ScottSilverFernApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::XFShapeView.Droid.Resource.Id.expand_activities_button = global::ScottSilverFernApp.Droid.Resource.Id.expand_activities_button;
+			global::XFShapeView.Droid.Resource.Id.expanded_menu = global::ScottSilverFernApp.Droid.Resource.Id.expanded_menu;
+			global::XFShapeView.Droid.Resource.Id.fill = global::ScottSilverFernApp.Droid.Resource.Id.fill;
+			global::XFShapeView.Droid.Resource.Id.fill_horizontal = global::ScottSilverFernApp.Droid.Resource.Id.fill_horizontal;
+			global::XFShapeView.Droid.Resource.Id.fill_vertical = global::ScottSilverFernApp.Droid.Resource.Id.fill_vertical;
+			global::XFShapeView.Droid.Resource.Id.@fixed = global::ScottSilverFernApp.Droid.Resource.Id.@fixed;
+			global::XFShapeView.Droid.Resource.Id.home = global::ScottSilverFernApp.Droid.Resource.Id.home;
+			global::XFShapeView.Droid.Resource.Id.homeAsUp = global::ScottSilverFernApp.Droid.Resource.Id.homeAsUp;
+			global::XFShapeView.Droid.Resource.Id.icon = global::ScottSilverFernApp.Droid.Resource.Id.icon;
+			global::XFShapeView.Droid.Resource.Id.ifRoom = global::ScottSilverFernApp.Droid.Resource.Id.ifRoom;
+			global::XFShapeView.Droid.Resource.Id.image = global::ScottSilverFernApp.Droid.Resource.Id.image;
+			global::XFShapeView.Droid.Resource.Id.info = global::ScottSilverFernApp.Droid.Resource.Id.info;
+			global::XFShapeView.Droid.Resource.Id.item_touch_helper_previous_elevation = global::ScottSilverFernApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::XFShapeView.Droid.Resource.Id.left = global::ScottSilverFernApp.Droid.Resource.Id.left;
+			global::XFShapeView.Droid.Resource.Id.line1 = global::ScottSilverFernApp.Droid.Resource.Id.line1;
+			global::XFShapeView.Droid.Resource.Id.line3 = global::ScottSilverFernApp.Droid.Resource.Id.line3;
+			global::XFShapeView.Droid.Resource.Id.listMode = global::ScottSilverFernApp.Droid.Resource.Id.listMode;
+			global::XFShapeView.Droid.Resource.Id.list_item = global::ScottSilverFernApp.Droid.Resource.Id.list_item;
+			global::XFShapeView.Droid.Resource.Id.media_actions = global::ScottSilverFernApp.Droid.Resource.Id.media_actions;
+			global::XFShapeView.Droid.Resource.Id.middle = global::ScottSilverFernApp.Droid.Resource.Id.middle;
+			global::XFShapeView.Droid.Resource.Id.mini = global::ScottSilverFernApp.Droid.Resource.Id.mini;
+			global::XFShapeView.Droid.Resource.Id.mr_art = global::ScottSilverFernApp.Droid.Resource.Id.mr_art;
+			global::XFShapeView.Droid.Resource.Id.mr_chooser_list = global::ScottSilverFernApp.Droid.Resource.Id.mr_chooser_list;
+			global::XFShapeView.Droid.Resource.Id.mr_chooser_route_desc = global::ScottSilverFernApp.Droid.Resource.Id.mr_chooser_route_desc;
+			global::XFShapeView.Droid.Resource.Id.mr_chooser_route_icon = global::ScottSilverFernApp.Droid.Resource.Id.mr_chooser_route_icon;
+			global::XFShapeView.Droid.Resource.Id.mr_chooser_route_name = global::ScottSilverFernApp.Droid.Resource.Id.mr_chooser_route_name;
+			global::XFShapeView.Droid.Resource.Id.mr_close = global::ScottSilverFernApp.Droid.Resource.Id.mr_close;
+			global::XFShapeView.Droid.Resource.Id.mr_control_divider = global::ScottSilverFernApp.Droid.Resource.Id.mr_control_divider;
+			global::XFShapeView.Droid.Resource.Id.mr_control_subtitle = global::ScottSilverFernApp.Droid.Resource.Id.mr_control_subtitle;
+			global::XFShapeView.Droid.Resource.Id.mr_control_title = global::ScottSilverFernApp.Droid.Resource.Id.mr_control_title;
+			global::XFShapeView.Droid.Resource.Id.mr_control_title_container = global::ScottSilverFernApp.Droid.Resource.Id.mr_control_title_container;
+			global::XFShapeView.Droid.Resource.Id.mr_custom_control = global::ScottSilverFernApp.Droid.Resource.Id.mr_custom_control;
+			global::XFShapeView.Droid.Resource.Id.mr_default_control = global::ScottSilverFernApp.Droid.Resource.Id.mr_default_control;
+			global::XFShapeView.Droid.Resource.Id.mr_dialog_area = global::ScottSilverFernApp.Droid.Resource.Id.mr_dialog_area;
+			global::XFShapeView.Droid.Resource.Id.mr_expandable_area = global::ScottSilverFernApp.Droid.Resource.Id.mr_expandable_area;
+			global::XFShapeView.Droid.Resource.Id.mr_group_expand_collapse = global::ScottSilverFernApp.Droid.Resource.Id.mr_group_expand_collapse;
+			global::XFShapeView.Droid.Resource.Id.mr_media_main_control = global::ScottSilverFernApp.Droid.Resource.Id.mr_media_main_control;
+			global::XFShapeView.Droid.Resource.Id.mr_name = global::ScottSilverFernApp.Droid.Resource.Id.mr_name;
+			global::XFShapeView.Droid.Resource.Id.mr_playback_control = global::ScottSilverFernApp.Droid.Resource.Id.mr_playback_control;
+			global::XFShapeView.Droid.Resource.Id.mr_title_bar = global::ScottSilverFernApp.Droid.Resource.Id.mr_title_bar;
+			global::XFShapeView.Droid.Resource.Id.mr_volume_control = global::ScottSilverFernApp.Droid.Resource.Id.mr_volume_control;
+			global::XFShapeView.Droid.Resource.Id.mr_volume_group_list = global::ScottSilverFernApp.Droid.Resource.Id.mr_volume_group_list;
+			global::XFShapeView.Droid.Resource.Id.mr_volume_item_icon = global::ScottSilverFernApp.Droid.Resource.Id.mr_volume_item_icon;
+			global::XFShapeView.Droid.Resource.Id.mr_volume_slider = global::ScottSilverFernApp.Droid.Resource.Id.mr_volume_slider;
+			global::XFShapeView.Droid.Resource.Id.multiply = global::ScottSilverFernApp.Droid.Resource.Id.multiply;
+			global::XFShapeView.Droid.Resource.Id.navigation_header_container = global::ScottSilverFernApp.Droid.Resource.Id.navigation_header_container;
+			global::XFShapeView.Droid.Resource.Id.never = global::ScottSilverFernApp.Droid.Resource.Id.never;
+			global::XFShapeView.Droid.Resource.Id.none = global::ScottSilverFernApp.Droid.Resource.Id.none;
+			global::XFShapeView.Droid.Resource.Id.normal = global::ScottSilverFernApp.Droid.Resource.Id.normal;
+			global::XFShapeView.Droid.Resource.Id.parallax = global::ScottSilverFernApp.Droid.Resource.Id.parallax;
+			global::XFShapeView.Droid.Resource.Id.parentPanel = global::ScottSilverFernApp.Droid.Resource.Id.parentPanel;
+			global::XFShapeView.Droid.Resource.Id.pin = global::ScottSilverFernApp.Droid.Resource.Id.pin;
+			global::XFShapeView.Droid.Resource.Id.progress_circular = global::ScottSilverFernApp.Droid.Resource.Id.progress_circular;
+			global::XFShapeView.Droid.Resource.Id.progress_horizontal = global::ScottSilverFernApp.Droid.Resource.Id.progress_horizontal;
+			global::XFShapeView.Droid.Resource.Id.radio = global::ScottSilverFernApp.Droid.Resource.Id.radio;
+			global::XFShapeView.Droid.Resource.Id.right = global::ScottSilverFernApp.Droid.Resource.Id.right;
+			global::XFShapeView.Droid.Resource.Id.screen = global::ScottSilverFernApp.Droid.Resource.Id.screen;
+			global::XFShapeView.Droid.Resource.Id.scroll = global::ScottSilverFernApp.Droid.Resource.Id.scroll;
+			global::XFShapeView.Droid.Resource.Id.scrollIndicatorDown = global::ScottSilverFernApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::XFShapeView.Droid.Resource.Id.scrollIndicatorUp = global::ScottSilverFernApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::XFShapeView.Droid.Resource.Id.scrollView = global::ScottSilverFernApp.Droid.Resource.Id.scrollView;
+			global::XFShapeView.Droid.Resource.Id.scrollable = global::ScottSilverFernApp.Droid.Resource.Id.scrollable;
+			global::XFShapeView.Droid.Resource.Id.search_badge = global::ScottSilverFernApp.Droid.Resource.Id.search_badge;
+			global::XFShapeView.Droid.Resource.Id.search_bar = global::ScottSilverFernApp.Droid.Resource.Id.search_bar;
+			global::XFShapeView.Droid.Resource.Id.search_button = global::ScottSilverFernApp.Droid.Resource.Id.search_button;
+			global::XFShapeView.Droid.Resource.Id.search_close_btn = global::ScottSilverFernApp.Droid.Resource.Id.search_close_btn;
+			global::XFShapeView.Droid.Resource.Id.search_edit_frame = global::ScottSilverFernApp.Droid.Resource.Id.search_edit_frame;
+			global::XFShapeView.Droid.Resource.Id.search_go_btn = global::ScottSilverFernApp.Droid.Resource.Id.search_go_btn;
+			global::XFShapeView.Droid.Resource.Id.search_mag_icon = global::ScottSilverFernApp.Droid.Resource.Id.search_mag_icon;
+			global::XFShapeView.Droid.Resource.Id.search_plate = global::ScottSilverFernApp.Droid.Resource.Id.search_plate;
+			global::XFShapeView.Droid.Resource.Id.search_src_text = global::ScottSilverFernApp.Droid.Resource.Id.search_src_text;
+			global::XFShapeView.Droid.Resource.Id.search_voice_btn = global::ScottSilverFernApp.Droid.Resource.Id.search_voice_btn;
+			global::XFShapeView.Droid.Resource.Id.select_dialog_listview = global::ScottSilverFernApp.Droid.Resource.Id.select_dialog_listview;
+			global::XFShapeView.Droid.Resource.Id.shortcut = global::ScottSilverFernApp.Droid.Resource.Id.shortcut;
+			global::XFShapeView.Droid.Resource.Id.showCustom = global::ScottSilverFernApp.Droid.Resource.Id.showCustom;
+			global::XFShapeView.Droid.Resource.Id.showHome = global::ScottSilverFernApp.Droid.Resource.Id.showHome;
+			global::XFShapeView.Droid.Resource.Id.showTitle = global::ScottSilverFernApp.Droid.Resource.Id.showTitle;
+			global::XFShapeView.Droid.Resource.Id.snackbar_action = global::ScottSilverFernApp.Droid.Resource.Id.snackbar_action;
+			global::XFShapeView.Droid.Resource.Id.snackbar_text = global::ScottSilverFernApp.Droid.Resource.Id.snackbar_text;
+			global::XFShapeView.Droid.Resource.Id.snap = global::ScottSilverFernApp.Droid.Resource.Id.snap;
+			global::XFShapeView.Droid.Resource.Id.spacer = global::ScottSilverFernApp.Droid.Resource.Id.spacer;
+			global::XFShapeView.Droid.Resource.Id.split_action_bar = global::ScottSilverFernApp.Droid.Resource.Id.split_action_bar;
+			global::XFShapeView.Droid.Resource.Id.src_atop = global::ScottSilverFernApp.Droid.Resource.Id.src_atop;
+			global::XFShapeView.Droid.Resource.Id.src_in = global::ScottSilverFernApp.Droid.Resource.Id.src_in;
+			global::XFShapeView.Droid.Resource.Id.src_over = global::ScottSilverFernApp.Droid.Resource.Id.src_over;
+			global::XFShapeView.Droid.Resource.Id.start = global::ScottSilverFernApp.Droid.Resource.Id.start;
+			global::XFShapeView.Droid.Resource.Id.status_bar_latest_event_content = global::ScottSilverFernApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::XFShapeView.Droid.Resource.Id.submit_area = global::ScottSilverFernApp.Droid.Resource.Id.submit_area;
+			global::XFShapeView.Droid.Resource.Id.tabMode = global::ScottSilverFernApp.Droid.Resource.Id.tabMode;
+			global::XFShapeView.Droid.Resource.Id.text = global::ScottSilverFernApp.Droid.Resource.Id.text;
+			global::XFShapeView.Droid.Resource.Id.text2 = global::ScottSilverFernApp.Droid.Resource.Id.text2;
+			global::XFShapeView.Droid.Resource.Id.textSpacerNoButtons = global::ScottSilverFernApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::XFShapeView.Droid.Resource.Id.time = global::ScottSilverFernApp.Droid.Resource.Id.time;
+			global::XFShapeView.Droid.Resource.Id.title = global::ScottSilverFernApp.Droid.Resource.Id.title;
+			global::XFShapeView.Droid.Resource.Id.title_template = global::ScottSilverFernApp.Droid.Resource.Id.title_template;
+			global::XFShapeView.Droid.Resource.Id.top = global::ScottSilverFernApp.Droid.Resource.Id.top;
+			global::XFShapeView.Droid.Resource.Id.topPanel = global::ScottSilverFernApp.Droid.Resource.Id.topPanel;
+			global::XFShapeView.Droid.Resource.Id.touch_outside = global::ScottSilverFernApp.Droid.Resource.Id.touch_outside;
+			global::XFShapeView.Droid.Resource.Id.up = global::ScottSilverFernApp.Droid.Resource.Id.up;
+			global::XFShapeView.Droid.Resource.Id.useLogo = global::ScottSilverFernApp.Droid.Resource.Id.useLogo;
+			global::XFShapeView.Droid.Resource.Id.view_offset_helper = global::ScottSilverFernApp.Droid.Resource.Id.view_offset_helper;
+			global::XFShapeView.Droid.Resource.Id.volume_item_container = global::ScottSilverFernApp.Droid.Resource.Id.volume_item_container;
+			global::XFShapeView.Droid.Resource.Id.withText = global::ScottSilverFernApp.Droid.Resource.Id.withText;
+			global::XFShapeView.Droid.Resource.Id.wrap_content = global::ScottSilverFernApp.Droid.Resource.Id.wrap_content;
+			global::XFShapeView.Droid.Resource.Integer.abc_config_activityDefaultDur = global::ScottSilverFernApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::XFShapeView.Droid.Resource.Integer.abc_config_activityShortDur = global::ScottSilverFernApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::XFShapeView.Droid.Resource.Integer.bottom_sheet_slide_duration = global::ScottSilverFernApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::XFShapeView.Droid.Resource.Integer.cancel_button_image_alpha = global::ScottSilverFernApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::XFShapeView.Droid.Resource.Integer.design_snackbar_text_max_lines = global::ScottSilverFernApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::XFShapeView.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::ScottSilverFernApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::XFShapeView.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::ScottSilverFernApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::XFShapeView.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::ScottSilverFernApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::XFShapeView.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::ScottSilverFernApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::XFShapeView.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::ScottSilverFernApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::XFShapeView.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::ScottSilverFernApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::XFShapeView.Droid.Resource.Layout.abc_action_bar_title_item = global::ScottSilverFernApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::XFShapeView.Droid.Resource.Layout.abc_action_bar_up_container = global::ScottSilverFernApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::XFShapeView.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::ScottSilverFernApp.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::XFShapeView.Droid.Resource.Layout.abc_action_menu_item_layout = global::ScottSilverFernApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::XFShapeView.Droid.Resource.Layout.abc_action_menu_layout = global::ScottSilverFernApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::XFShapeView.Droid.Resource.Layout.abc_action_mode_bar = global::ScottSilverFernApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::XFShapeView.Droid.Resource.Layout.abc_action_mode_close_item_material = global::ScottSilverFernApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::XFShapeView.Droid.Resource.Layout.abc_activity_chooser_view = global::ScottSilverFernApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::XFShapeView.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::ScottSilverFernApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::XFShapeView.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::ScottSilverFernApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::XFShapeView.Droid.Resource.Layout.abc_alert_dialog_material = global::ScottSilverFernApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::XFShapeView.Droid.Resource.Layout.abc_dialog_title_material = global::ScottSilverFernApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::XFShapeView.Droid.Resource.Layout.abc_expanded_menu_layout = global::ScottSilverFernApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::XFShapeView.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::ScottSilverFernApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::XFShapeView.Droid.Resource.Layout.abc_list_menu_item_icon = global::ScottSilverFernApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::XFShapeView.Droid.Resource.Layout.abc_list_menu_item_layout = global::ScottSilverFernApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::XFShapeView.Droid.Resource.Layout.abc_list_menu_item_radio = global::ScottSilverFernApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::XFShapeView.Droid.Resource.Layout.abc_popup_menu_item_layout = global::ScottSilverFernApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::XFShapeView.Droid.Resource.Layout.abc_screen_content_include = global::ScottSilverFernApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::XFShapeView.Droid.Resource.Layout.abc_screen_simple = global::ScottSilverFernApp.Droid.Resource.Layout.abc_screen_simple;
+			global::XFShapeView.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ScottSilverFernApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::XFShapeView.Droid.Resource.Layout.abc_screen_toolbar = global::ScottSilverFernApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::XFShapeView.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ScottSilverFernApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::XFShapeView.Droid.Resource.Layout.abc_search_view = global::ScottSilverFernApp.Droid.Resource.Layout.abc_search_view;
+			global::XFShapeView.Droid.Resource.Layout.abc_select_dialog_material = global::ScottSilverFernApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::XFShapeView.Droid.Resource.Layout.design_bottom_sheet_dialog = global::ScottSilverFernApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::XFShapeView.Droid.Resource.Layout.design_layout_snackbar = global::ScottSilverFernApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::XFShapeView.Droid.Resource.Layout.design_layout_snackbar_include = global::ScottSilverFernApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::XFShapeView.Droid.Resource.Layout.design_layout_tab_icon = global::ScottSilverFernApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::XFShapeView.Droid.Resource.Layout.design_layout_tab_text = global::ScottSilverFernApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::XFShapeView.Droid.Resource.Layout.design_menu_item_action_area = global::ScottSilverFernApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::XFShapeView.Droid.Resource.Layout.design_navigation_item = global::ScottSilverFernApp.Droid.Resource.Layout.design_navigation_item;
+			global::XFShapeView.Droid.Resource.Layout.design_navigation_item_header = global::ScottSilverFernApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::XFShapeView.Droid.Resource.Layout.design_navigation_item_separator = global::ScottSilverFernApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::XFShapeView.Droid.Resource.Layout.design_navigation_item_subheader = global::ScottSilverFernApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::XFShapeView.Droid.Resource.Layout.design_navigation_menu = global::ScottSilverFernApp.Droid.Resource.Layout.design_navigation_menu;
+			global::XFShapeView.Droid.Resource.Layout.design_navigation_menu_item = global::ScottSilverFernApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::XFShapeView.Droid.Resource.Layout.mr_chooser_dialog = global::ScottSilverFernApp.Droid.Resource.Layout.mr_chooser_dialog;
+			global::XFShapeView.Droid.Resource.Layout.mr_chooser_list_item = global::ScottSilverFernApp.Droid.Resource.Layout.mr_chooser_list_item;
+			global::XFShapeView.Droid.Resource.Layout.mr_controller_material_dialog_b = global::ScottSilverFernApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::XFShapeView.Droid.Resource.Layout.mr_controller_volume_item = global::ScottSilverFernApp.Droid.Resource.Layout.mr_controller_volume_item;
+			global::XFShapeView.Droid.Resource.Layout.mr_playback_control = global::ScottSilverFernApp.Droid.Resource.Layout.mr_playback_control;
+			global::XFShapeView.Droid.Resource.Layout.mr_volume_control = global::ScottSilverFernApp.Droid.Resource.Layout.mr_volume_control;
+			global::XFShapeView.Droid.Resource.Layout.notification_media_action = global::ScottSilverFernApp.Droid.Resource.Layout.notification_media_action;
+			global::XFShapeView.Droid.Resource.Layout.notification_media_cancel_action = global::ScottSilverFernApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::XFShapeView.Droid.Resource.Layout.notification_template_big_media = global::ScottSilverFernApp.Droid.Resource.Layout.notification_template_big_media;
+			global::XFShapeView.Droid.Resource.Layout.notification_template_big_media_narrow = global::ScottSilverFernApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::XFShapeView.Droid.Resource.Layout.notification_template_media = global::ScottSilverFernApp.Droid.Resource.Layout.notification_template_media;
+			global::XFShapeView.Droid.Resource.Layout.notification_template_part_chronometer = global::ScottSilverFernApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::XFShapeView.Droid.Resource.Layout.notification_template_part_time = global::ScottSilverFernApp.Droid.Resource.Layout.notification_template_part_time;
+			global::XFShapeView.Droid.Resource.Layout.select_dialog_item_material = global::ScottSilverFernApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::XFShapeView.Droid.Resource.Layout.select_dialog_multichoice_material = global::ScottSilverFernApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::XFShapeView.Droid.Resource.Layout.select_dialog_singlechoice_material = global::ScottSilverFernApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::XFShapeView.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::ScottSilverFernApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::XFShapeView.Droid.Resource.String.ApplicationName = global::ScottSilverFernApp.Droid.Resource.String.ApplicationName;
+			global::XFShapeView.Droid.Resource.String.Hello = global::ScottSilverFernApp.Droid.Resource.String.Hello;
+			global::XFShapeView.Droid.Resource.String.abc_action_bar_home_description = global::ScottSilverFernApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::XFShapeView.Droid.Resource.String.abc_action_bar_home_description_format = global::ScottSilverFernApp.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::XFShapeView.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::ScottSilverFernApp.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::XFShapeView.Droid.Resource.String.abc_action_bar_up_description = global::ScottSilverFernApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::XFShapeView.Droid.Resource.String.abc_action_menu_overflow_description = global::ScottSilverFernApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::XFShapeView.Droid.Resource.String.abc_action_mode_done = global::ScottSilverFernApp.Droid.Resource.String.abc_action_mode_done;
+			global::XFShapeView.Droid.Resource.String.abc_activity_chooser_view_see_all = global::ScottSilverFernApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::XFShapeView.Droid.Resource.String.abc_activitychooserview_choose_application = global::ScottSilverFernApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::XFShapeView.Droid.Resource.String.abc_capital_off = global::ScottSilverFernApp.Droid.Resource.String.abc_capital_off;
+			global::XFShapeView.Droid.Resource.String.abc_capital_on = global::ScottSilverFernApp.Droid.Resource.String.abc_capital_on;
+			global::XFShapeView.Droid.Resource.String.abc_search_hint = global::ScottSilverFernApp.Droid.Resource.String.abc_search_hint;
+			global::XFShapeView.Droid.Resource.String.abc_searchview_description_clear = global::ScottSilverFernApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::XFShapeView.Droid.Resource.String.abc_searchview_description_query = global::ScottSilverFernApp.Droid.Resource.String.abc_searchview_description_query;
+			global::XFShapeView.Droid.Resource.String.abc_searchview_description_search = global::ScottSilverFernApp.Droid.Resource.String.abc_searchview_description_search;
+			global::XFShapeView.Droid.Resource.String.abc_searchview_description_submit = global::ScottSilverFernApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::XFShapeView.Droid.Resource.String.abc_searchview_description_voice = global::ScottSilverFernApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::XFShapeView.Droid.Resource.String.abc_shareactionprovider_share_with = global::ScottSilverFernApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::XFShapeView.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::ScottSilverFernApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::XFShapeView.Droid.Resource.String.abc_toolbar_collapse_description = global::ScottSilverFernApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::XFShapeView.Droid.Resource.String.appbar_scrolling_view_behavior = global::ScottSilverFernApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::XFShapeView.Droid.Resource.String.bottom_sheet_behavior = global::ScottSilverFernApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::XFShapeView.Droid.Resource.String.character_counter_pattern = global::ScottSilverFernApp.Droid.Resource.String.character_counter_pattern;
+			global::XFShapeView.Droid.Resource.String.mr_button_content_description = global::ScottSilverFernApp.Droid.Resource.String.mr_button_content_description;
+			global::XFShapeView.Droid.Resource.String.mr_chooser_searching = global::ScottSilverFernApp.Droid.Resource.String.mr_chooser_searching;
+			global::XFShapeView.Droid.Resource.String.mr_chooser_title = global::ScottSilverFernApp.Droid.Resource.String.mr_chooser_title;
+			global::XFShapeView.Droid.Resource.String.mr_controller_casting_screen = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_casting_screen;
+			global::XFShapeView.Droid.Resource.String.mr_controller_close_description = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_close_description;
+			global::XFShapeView.Droid.Resource.String.mr_controller_collapse_group = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_collapse_group;
+			global::XFShapeView.Droid.Resource.String.mr_controller_disconnect = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_disconnect;
+			global::XFShapeView.Droid.Resource.String.mr_controller_expand_group = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_expand_group;
+			global::XFShapeView.Droid.Resource.String.mr_controller_no_info_available = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_no_info_available;
+			global::XFShapeView.Droid.Resource.String.mr_controller_no_media_selected = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_no_media_selected;
+			global::XFShapeView.Droid.Resource.String.mr_controller_pause = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_pause;
+			global::XFShapeView.Droid.Resource.String.mr_controller_play = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_play;
+			global::XFShapeView.Droid.Resource.String.mr_controller_stop = global::ScottSilverFernApp.Droid.Resource.String.mr_controller_stop;
+			global::XFShapeView.Droid.Resource.String.mr_system_route_name = global::ScottSilverFernApp.Droid.Resource.String.mr_system_route_name;
+			global::XFShapeView.Droid.Resource.String.mr_user_route_category_name = global::ScottSilverFernApp.Droid.Resource.String.mr_user_route_category_name;
+			global::XFShapeView.Droid.Resource.String.status_bar_notification_info_overflow = global::ScottSilverFernApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::XFShapeView.Droid.Resource.Style.AlertDialog_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Animation_AppCompat_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::ScottSilverFernApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::XFShapeView.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::ScottSilverFernApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::XFShapeView.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ScottSilverFernApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::XFShapeView.Droid.Resource.Style.Base_CardView = global::ScottSilverFernApp.Droid.Resource.Style.Base_CardView;
+			global::XFShapeView.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::XFShapeView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ScottSilverFernApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::XFShapeView.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ScottSilverFernApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::XFShapeView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ScottSilverFernApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::XFShapeView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::ScottSilverFernApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::XFShapeView.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::ScottSilverFernApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::XFShapeView.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ScottSilverFernApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::XFShapeView.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ScottSilverFernApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::XFShapeView.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::ScottSilverFernApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::XFShapeView.Droid.Resource.Style.CardView = global::ScottSilverFernApp.Droid.Resource.Style.CardView;
+			global::XFShapeView.Droid.Resource.Style.CardView_Dark = global::ScottSilverFernApp.Droid.Resource.Style.CardView_Dark;
+			global::XFShapeView.Droid.Resource.Style.CardView_Light = global::ScottSilverFernApp.Droid.Resource.Style.CardView_Light;
+			global::XFShapeView.Droid.Resource.Style.Platform_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Platform_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Platform_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ScottSilverFernApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::XFShapeView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Platform_V11_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Platform_V14_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ScottSilverFernApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::XFShapeView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ScottSilverFernApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::XFShapeView.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ScottSilverFernApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::XFShapeView.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ScottSilverFernApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Design_Counter = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Design_Error = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Design_Hint = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Design_Tab = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::XFShapeView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ScottSilverFernApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_DayNight = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::XFShapeView.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::XFShapeView.Droid.Resource.Style.Theme_Design = global::ScottSilverFernApp.Droid.Resource.Style.Theme_Design;
+			global::XFShapeView.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::ScottSilverFernApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::XFShapeView.Droid.Resource.Style.Theme_Design_Light = global::ScottSilverFernApp.Droid.Resource.Style.Theme_Design_Light;
+			global::XFShapeView.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ScottSilverFernApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::XFShapeView.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::XFShapeView.Droid.Resource.Style.Theme_Design_NoActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::XFShapeView.Droid.Resource.Style.Theme_MediaRouter = global::ScottSilverFernApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::XFShapeView.Droid.Resource.Style.Theme_MediaRouter_Light = global::ScottSilverFernApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::XFShapeView.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::ScottSilverFernApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::XFShapeView.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::ScottSilverFernApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::XFShapeView.Droid.Resource.Style.ThemeOverlay_AppCompat = global::ScottSilverFernApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::XFShapeView.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ScottSilverFernApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::XFShapeView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::ScottSilverFernApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Button = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_EditText = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ListView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_SearchView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Spinner = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::XFShapeView.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ScottSilverFernApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_AppBarLayout = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_NavigationView = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_Snackbar = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_TabLayout = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::XFShapeView.Droid.Resource.Style.Widget_Design_TextInputLayout = global::ScottSilverFernApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::XFShapeView.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::ScottSilverFernApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::XFShapeView.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::ScottSilverFernApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_background = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_background;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_displayOptions = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_divider = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_elevation = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_height = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_height;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_homeLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_icon = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_itemPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_logo = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_navigationMode = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_popupTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_subtitle = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_title = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_title;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBarLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::XFShapeView.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMenuItemView = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMenuView = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMenuView;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMode = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMode;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMode_background = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMode_background;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMode_height = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMode_height;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::XFShapeView.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::XFShapeView.Droid.Resource.Styleable.ActivityChooserView = global::ScottSilverFernApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::XFShapeView.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ScottSilverFernApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::XFShapeView.Droid.Resource.Styleable.AlertDialog = global::ScottSilverFernApp.Droid.Resource.Styleable.AlertDialog;
+			global::XFShapeView.Droid.Resource.Styleable.AlertDialog_android_layout = global::ScottSilverFernApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::XFShapeView.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::XFShapeView.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::XFShapeView.Droid.Resource.Styleable.AlertDialog_listLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::XFShapeView.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::XFShapeView.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::XFShapeView.Droid.Resource.Styleable.AppBarLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.AppBarLayout;
+			global::XFShapeView.Droid.Resource.Styleable.AppBarLayout_android_background = global::ScottSilverFernApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::XFShapeView.Droid.Resource.Styleable.AppBarLayout_elevation = global::ScottSilverFernApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::XFShapeView.Droid.Resource.Styleable.AppBarLayout_expanded = global::ScottSilverFernApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatImageView = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatImageView_android_src = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTextView = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::XFShapeView.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ScottSilverFernApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::XFShapeView.Droid.Resource.Styleable.ButtonBarLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::XFShapeView.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::ScottSilverFernApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::XFShapeView.Droid.Resource.Styleable.CardView = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_android_minHeight = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_android_minWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_cardCornerRadius = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_cardElevation = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_cardMaxElevation = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_contentPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_contentPaddingRight = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::XFShapeView.Droid.Resource.Styleable.CardView_contentPaddingTop = global::ScottSilverFernApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::XFShapeView.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ScottSilverFernApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::XFShapeView.Droid.Resource.Styleable.CompoundButton = global::ScottSilverFernApp.Droid.Resource.Styleable.CompoundButton;
+			global::XFShapeView.Droid.Resource.Styleable.CompoundButton_android_button = global::ScottSilverFernApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::XFShapeView.Droid.Resource.Styleable.CompoundButton_buttonTint = global::ScottSilverFernApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::XFShapeView.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::ScottSilverFernApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::XFShapeView.Droid.Resource.Styleable.CoordinatorLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::XFShapeView.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::ScottSilverFernApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::XFShapeView.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::XFShapeView.Droid.Resource.Styleable.DesignTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.DesignTheme;
+			global::XFShapeView.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::XFShapeView.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::XFShapeView.Droid.Resource.Styleable.DesignTheme_textColorError = global::ScottSilverFernApp.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::XFShapeView.Droid.Resource.Styleable.DrawerArrowToggle = global::ScottSilverFernApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::XFShapeView.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ScottSilverFernApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::XFShapeView.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ScottSilverFernApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::XFShapeView.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::ScottSilverFernApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::XFShapeView.Droid.Resource.Styleable.DrawerArrowToggle_color = global::ScottSilverFernApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::XFShapeView.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ScottSilverFernApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::XFShapeView.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ScottSilverFernApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::XFShapeView.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::ScottSilverFernApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::XFShapeView.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::ScottSilverFernApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::XFShapeView.Droid.Resource.Styleable.FloatingActionButton = global::ScottSilverFernApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::XFShapeView.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::ScottSilverFernApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::XFShapeView.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ScottSilverFernApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::XFShapeView.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::XFShapeView.Droid.Resource.Styleable.FloatingActionButton_elevation = global::ScottSilverFernApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::XFShapeView.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::ScottSilverFernApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::XFShapeView.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ScottSilverFernApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::XFShapeView.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::ScottSilverFernApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::XFShapeView.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::XFShapeView.Droid.Resource.Styleable.ForegroundLinearLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::XFShapeView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ScottSilverFernApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::XFShapeView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ScottSilverFernApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::XFShapeView.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ScottSilverFernApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::XFShapeView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ScottSilverFernApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::XFShapeView.Droid.Resource.Styleable.ListPopupWindow = global::ScottSilverFernApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::XFShapeView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ScottSilverFernApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::XFShapeView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ScottSilverFernApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::XFShapeView.Droid.Resource.Styleable.MediaRouteButton = global::ScottSilverFernApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::XFShapeView.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::ScottSilverFernApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::XFShapeView.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::XFShapeView.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::ScottSilverFernApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::XFShapeView.Droid.Resource.Styleable.MenuGroup = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuGroup;
+			global::XFShapeView.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::XFShapeView.Droid.Resource.Styleable.MenuGroup_android_enabled = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::XFShapeView.Droid.Resource.Styleable.MenuGroup_android_id = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::XFShapeView.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::XFShapeView.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::XFShapeView.Droid.Resource.Styleable.MenuGroup_android_visible = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_actionLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_actionViewClass = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_checkable = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_checked = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_enabled = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_icon = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_id = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_onClick = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_title = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_android_visible = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::XFShapeView.Droid.Resource.Styleable.MenuItem_showAsAction = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::XFShapeView.Droid.Resource.Styleable.MenuView = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuView;
+			global::XFShapeView.Droid.Resource.Styleable.MenuView_android_headerBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::XFShapeView.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::XFShapeView.Droid.Resource.Styleable.MenuView_android_itemBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::XFShapeView.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::XFShapeView.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::XFShapeView.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::XFShapeView.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::ScottSilverFernApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_android_background = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_elevation = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_headerLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_itemBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_itemIconTint = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_itemTextColor = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::XFShapeView.Droid.Resource.Styleable.NavigationView_menu = global::ScottSilverFernApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::XFShapeView.Droid.Resource.Styleable.PopupWindow = global::ScottSilverFernApp.Droid.Resource.Styleable.PopupWindow;
+			global::XFShapeView.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::XFShapeView.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::ScottSilverFernApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::XFShapeView.Droid.Resource.Styleable.PopupWindowBackgroundState = global::ScottSilverFernApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::XFShapeView.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ScottSilverFernApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::XFShapeView.Droid.Resource.Styleable.RecyclerView = global::ScottSilverFernApp.Droid.Resource.Styleable.RecyclerView;
+			global::XFShapeView.Droid.Resource.Styleable.RecyclerView_android_orientation = global::ScottSilverFernApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::XFShapeView.Droid.Resource.Styleable.RecyclerView_layoutManager = global::ScottSilverFernApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::XFShapeView.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::XFShapeView.Droid.Resource.Styleable.RecyclerView_spanCount = global::ScottSilverFernApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::XFShapeView.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::ScottSilverFernApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::XFShapeView.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::XFShapeView.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ScottSilverFernApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_android_focusable = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_android_imeOptions = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_android_inputType = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_android_maxWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_closeIcon = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_commitIcon = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_goIcon = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_layout = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_layout;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_queryBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_queryHint = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_searchHintIcon = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_searchIcon = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_submitBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::XFShapeView.Droid.Resource.Styleable.SearchView_voiceIcon = global::ScottSilverFernApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::XFShapeView.Droid.Resource.Styleable.SnackbarLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::XFShapeView.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::XFShapeView.Droid.Resource.Styleable.SnackbarLayout_elevation = global::ScottSilverFernApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::XFShapeView.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::XFShapeView.Droid.Resource.Styleable.Spinner = global::ScottSilverFernApp.Droid.Resource.Styleable.Spinner;
+			global::XFShapeView.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::XFShapeView.Droid.Resource.Styleable.Spinner_android_entries = global::ScottSilverFernApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::XFShapeView.Droid.Resource.Styleable.Spinner_android_popupBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::XFShapeView.Droid.Resource.Styleable.Spinner_android_prompt = global::ScottSilverFernApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::XFShapeView.Droid.Resource.Styleable.Spinner_popupTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_showText = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::XFShapeView.Droid.Resource.Styleable.SwitchCompat_track = global::ScottSilverFernApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::XFShapeView.Droid.Resource.Styleable.TabItem = global::ScottSilverFernApp.Droid.Resource.Styleable.TabItem;
+			global::XFShapeView.Droid.Resource.Styleable.TabItem_android_icon = global::ScottSilverFernApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::XFShapeView.Droid.Resource.Styleable.TabItem_android_layout = global::ScottSilverFernApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::XFShapeView.Droid.Resource.Styleable.TabItem_android_text = global::ScottSilverFernApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabBackground = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabContentStart = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabGravity = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabMode = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabPadding = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.TabLayout_tabTextColor = global::ScottSilverFernApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance_android_textColor = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance_android_textSize = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance_android_typeface = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::XFShapeView.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::ScottSilverFernApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_android_hint = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::XFShapeView.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_android_gravity = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_android_minHeight = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_collapseIcon = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_logo = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_logoDescription = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_navigationIcon = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_popupTheme = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_subtitle = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_title = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_title;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_titleMargins = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::XFShapeView.Droid.Resource.Styleable.Toolbar_titleTextColor = global::ScottSilverFernApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::XFShapeView.Droid.Resource.Styleable.View = global::ScottSilverFernApp.Droid.Resource.Styleable.View;
+			global::XFShapeView.Droid.Resource.Styleable.View_android_focusable = global::ScottSilverFernApp.Droid.Resource.Styleable.View_android_focusable;
+			global::XFShapeView.Droid.Resource.Styleable.View_android_theme = global::ScottSilverFernApp.Droid.Resource.Styleable.View_android_theme;
+			global::XFShapeView.Droid.Resource.Styleable.View_paddingEnd = global::ScottSilverFernApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::XFShapeView.Droid.Resource.Styleable.View_paddingStart = global::ScottSilverFernApp.Droid.Resource.Styleable.View_paddingStart;
+			global::XFShapeView.Droid.Resource.Styleable.View_theme = global::ScottSilverFernApp.Droid.Resource.Styleable.View_theme;
+			global::XFShapeView.Droid.Resource.Styleable.ViewBackgroundHelper = global::ScottSilverFernApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::XFShapeView.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::ScottSilverFernApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::XFShapeView.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ScottSilverFernApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::XFShapeView.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ScottSilverFernApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::XFShapeView.Droid.Resource.Styleable.ViewStubCompat = global::ScottSilverFernApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::XFShapeView.Droid.Resource.Styleable.ViewStubCompat_android_id = global::ScottSilverFernApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::XFShapeView.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ScottSilverFernApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::XFShapeView.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::ScottSilverFernApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -6557,8 +8194,8 @@ namespace ScottSilverFernApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0c00b8
-			public const int action0 = 2131493048;
+			// aapt resource value: 0x7f0c00b7
+			public const int action0 = 2131493047;
 			
 			// aapt resource value: 0x7f0c006e
 			public const int action_bar = 2131492974;
@@ -6581,17 +8218,17 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c004b
 			public const int action_bar_title = 2131492939;
 			
-			// aapt resource value: 0x7f0c00b5
-			public const int action_container = 2131493045;
+			// aapt resource value: 0x7f0c00b4
+			public const int action_container = 2131493044;
 			
 			// aapt resource value: 0x7f0c006f
 			public const int action_context_bar = 2131492975;
 			
-			// aapt resource value: 0x7f0c00bc
-			public const int action_divider = 2131493052;
+			// aapt resource value: 0x7f0c00bb
+			public const int action_divider = 2131493051;
 			
-			// aapt resource value: 0x7f0c00b6
-			public const int action_image = 2131493046;
+			// aapt resource value: 0x7f0c00b5
+			public const int action_image = 2131493045;
 			
 			// aapt resource value: 0x7f0c0003
 			public const int action_menu_divider = 2131492867;
@@ -6608,11 +8245,11 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c004d
 			public const int action_mode_close_button = 2131492941;
 			
-			// aapt resource value: 0x7f0c00b7
-			public const int action_text = 2131493047;
+			// aapt resource value: 0x7f0c00b6
+			public const int action_text = 2131493046;
 			
-			// aapt resource value: 0x7f0c00c5
-			public const int actions = 2131493061;
+			// aapt resource value: 0x7f0c00c4
+			public const int actions = 2131493060;
 			
 			// aapt resource value: 0x7f0c004e
 			public const int activity_chooser_view_content = 2131492942;
@@ -6637,9 +8274,6 @@ namespace ScottSilverFernApp.Droid
 			
 			// aapt resource value: 0x7f0c0019
 			public const int auto = 2131492889;
-			
-			// aapt resource value: 0x7f0c0088
-			public const int backButton = 2131493000;
 			
 			// aapt resource value: 0x7f0c0082
 			public const int bb_bottom_bar_background_overlay = 2131492994;
@@ -6677,8 +8311,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0055
 			public const int buttonPanel = 2131492949;
 			
-			// aapt resource value: 0x7f0c00b9
-			public const int cancel_action = 2131493049;
+			// aapt resource value: 0x7f0c00b8
+			public const int cancel_action = 2131493048;
 			
 			// aapt resource value: 0x7f0c003a
 			public const int center = 2131492922;
@@ -6692,8 +8326,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0065
 			public const int checkbox = 2131492965;
 			
-			// aapt resource value: 0x7f0c00c1
-			public const int chronometer = 2131493057;
+			// aapt resource value: 0x7f0c00c0
+			public const int chronometer = 2131493056;
 			
 			// aapt resource value: 0x7f0c0043
 			public const int clip_horizontal = 2131492931;
@@ -6704,14 +8338,14 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c002f
 			public const int collapseActionView = 2131492911;
 			
-			// aapt resource value: 0x7f0c008f
-			public const int container = 2131493007;
+			// aapt resource value: 0x7f0c008e
+			public const int container = 2131493006;
 			
 			// aapt resource value: 0x7f0c0058
 			public const int contentPanel = 2131492952;
 			
-			// aapt resource value: 0x7f0c0090
-			public const int coordinator = 2131493008;
+			// aapt resource value: 0x7f0c008f
+			public const int coordinator = 2131493007;
 			
 			// aapt resource value: 0x7f0c005f
 			public const int custom = 2131492959;
@@ -6728,20 +8362,20 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0051
 			public const int default_activity_button = 2131492945;
 			
-			// aapt resource value: 0x7f0c0092
-			public const int design_bottom_sheet = 2131493010;
-			
-			// aapt resource value: 0x7f0c0099
-			public const int design_menu_item_action_area = 2131493017;
+			// aapt resource value: 0x7f0c0091
+			public const int design_bottom_sheet = 2131493009;
 			
 			// aapt resource value: 0x7f0c0098
-			public const int design_menu_item_action_area_stub = 2131493016;
+			public const int design_menu_item_action_area = 2131493016;
 			
 			// aapt resource value: 0x7f0c0097
-			public const int design_menu_item_text = 2131493015;
+			public const int design_menu_item_action_area_stub = 2131493015;
 			
 			// aapt resource value: 0x7f0c0096
-			public const int design_navigation_view = 2131493014;
+			public const int design_menu_item_text = 2131493014;
+			
+			// aapt resource value: 0x7f0c0095
+			public const int design_navigation_view = 2131493013;
 			
 			// aapt resource value: 0x7f0c001e
 			public const int disableHome = 2131492894;
@@ -6752,8 +8386,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c002c
 			public const int end = 2131492908;
 			
-			// aapt resource value: 0x7f0c00cb
-			public const int end_padder = 2131493067;
+			// aapt resource value: 0x7f0c00ca
+			public const int end_padder = 2131493066;
 			
 			// aapt resource value: 0x7f0c0035
 			public const int enterAlways = 2131492917;
@@ -6782,8 +8416,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0049
 			public const int @fixed = 2131492937;
 			
-			// aapt resource value: 0x7f0c008c
-			public const int galleryButton = 2131493004;
+			// aapt resource value: 0x7f0c008b
+			public const int galleryButton = 2131493003;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int home = 2131492869;
@@ -6797,8 +8431,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0053
 			public const int icon = 2131492947;
 			
-			// aapt resource value: 0x7f0c00c6
-			public const int icon_group = 2131493062;
+			// aapt resource value: 0x7f0c00c5
+			public const int icon_group = 2131493061;
 			
 			// aapt resource value: 0x7f0c0016
 			public const int icon_only = 2131492886;
@@ -6809,14 +8443,14 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0050
 			public const int image = 2131492944;
 			
-			// aapt resource value: 0x7f0c00c2
-			public const int info = 2131493058;
+			// aapt resource value: 0x7f0c00c1
+			public const int info = 2131493057;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int item_touch_helper_previous_elevation = 2131492864;
 			
-			// aapt resource value: 0x7f0c008e
-			public const int largeLabel = 2131493006;
+			// aapt resource value: 0x7f0c008d
+			public const int largeLabel = 2131493005;
 			
 			// aapt resource value: 0x7f0c003e
 			public const int left = 2131492926;
@@ -6824,11 +8458,11 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c001b
 			public const int light = 2131492891;
 			
-			// aapt resource value: 0x7f0c00c7
-			public const int line1 = 2131493063;
+			// aapt resource value: 0x7f0c00c6
+			public const int line1 = 2131493062;
 			
-			// aapt resource value: 0x7f0c00c9
-			public const int line3 = 2131493065;
+			// aapt resource value: 0x7f0c00c8
+			public const int line3 = 2131493064;
 			
 			// aapt resource value: 0x7f0c001c
 			public const int listMode = 2131492892;
@@ -6836,11 +8470,11 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0052
 			public const int list_item = 2131492946;
 			
-			// aapt resource value: 0x7f0c00cf
-			public const int masked = 2131493071;
+			// aapt resource value: 0x7f0c00ce
+			public const int masked = 2131493070;
 			
-			// aapt resource value: 0x7f0c00bb
-			public const int media_actions = 2131493051;
+			// aapt resource value: 0x7f0c00ba
+			public const int media_actions = 2131493050;
 			
 			// aapt resource value: 0x7f0c002d
 			public const int middle = 2131492909;
@@ -6848,86 +8482,86 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0048
 			public const int mini = 2131492936;
 			
-			// aapt resource value: 0x7f0c00a7
-			public const int mr_art = 2131493031;
-			
-			// aapt resource value: 0x7f0c009c
-			public const int mr_chooser_list = 2131493020;
-			
-			// aapt resource value: 0x7f0c009f
-			public const int mr_chooser_route_desc = 2131493023;
-			
-			// aapt resource value: 0x7f0c009d
-			public const int mr_chooser_route_icon = 2131493021;
-			
-			// aapt resource value: 0x7f0c009e
-			public const int mr_chooser_route_name = 2131493022;
+			// aapt resource value: 0x7f0c00a6
+			public const int mr_art = 2131493030;
 			
 			// aapt resource value: 0x7f0c009b
-			public const int mr_chooser_title = 2131493019;
+			public const int mr_chooser_list = 2131493019;
 			
-			// aapt resource value: 0x7f0c00a4
-			public const int mr_close = 2131493028;
+			// aapt resource value: 0x7f0c009e
+			public const int mr_chooser_route_desc = 2131493022;
 			
-			// aapt resource value: 0x7f0c00aa
-			public const int mr_control_divider = 2131493034;
+			// aapt resource value: 0x7f0c009c
+			public const int mr_chooser_route_icon = 2131493020;
 			
-			// aapt resource value: 0x7f0c00b0
-			public const int mr_control_playback_ctrl = 2131493040;
+			// aapt resource value: 0x7f0c009d
+			public const int mr_chooser_route_name = 2131493021;
 			
-			// aapt resource value: 0x7f0c00b3
-			public const int mr_control_subtitle = 2131493043;
-			
-			// aapt resource value: 0x7f0c00b2
-			public const int mr_control_title = 2131493042;
-			
-			// aapt resource value: 0x7f0c00b1
-			public const int mr_control_title_container = 2131493041;
-			
-			// aapt resource value: 0x7f0c00a5
-			public const int mr_custom_control = 2131493029;
-			
-			// aapt resource value: 0x7f0c00a6
-			public const int mr_default_control = 2131493030;
-			
-			// aapt resource value: 0x7f0c00a1
-			public const int mr_dialog_area = 2131493025;
-			
-			// aapt resource value: 0x7f0c00a0
-			public const int mr_expandable_area = 2131493024;
-			
-			// aapt resource value: 0x7f0c00b4
-			public const int mr_group_expand_collapse = 2131493044;
-			
-			// aapt resource value: 0x7f0c00a8
-			public const int mr_media_main_control = 2131493032;
+			// aapt resource value: 0x7f0c009a
+			public const int mr_chooser_title = 2131493018;
 			
 			// aapt resource value: 0x7f0c00a3
-			public const int mr_name = 2131493027;
+			public const int mr_close = 2131493027;
 			
 			// aapt resource value: 0x7f0c00a9
-			public const int mr_playback_control = 2131493033;
-			
-			// aapt resource value: 0x7f0c00a2
-			public const int mr_title_bar = 2131493026;
-			
-			// aapt resource value: 0x7f0c00ab
-			public const int mr_volume_control = 2131493035;
-			
-			// aapt resource value: 0x7f0c00ac
-			public const int mr_volume_group_list = 2131493036;
-			
-			// aapt resource value: 0x7f0c00ae
-			public const int mr_volume_item_icon = 2131493038;
+			public const int mr_control_divider = 2131493033;
 			
 			// aapt resource value: 0x7f0c00af
-			public const int mr_volume_slider = 2131493039;
+			public const int mr_control_playback_ctrl = 2131493039;
+			
+			// aapt resource value: 0x7f0c00b2
+			public const int mr_control_subtitle = 2131493042;
+			
+			// aapt resource value: 0x7f0c00b1
+			public const int mr_control_title = 2131493041;
+			
+			// aapt resource value: 0x7f0c00b0
+			public const int mr_control_title_container = 2131493040;
+			
+			// aapt resource value: 0x7f0c00a4
+			public const int mr_custom_control = 2131493028;
+			
+			// aapt resource value: 0x7f0c00a5
+			public const int mr_default_control = 2131493029;
+			
+			// aapt resource value: 0x7f0c00a0
+			public const int mr_dialog_area = 2131493024;
+			
+			// aapt resource value: 0x7f0c009f
+			public const int mr_expandable_area = 2131493023;
+			
+			// aapt resource value: 0x7f0c00b3
+			public const int mr_group_expand_collapse = 2131493043;
+			
+			// aapt resource value: 0x7f0c00a7
+			public const int mr_media_main_control = 2131493031;
+			
+			// aapt resource value: 0x7f0c00a2
+			public const int mr_name = 2131493026;
+			
+			// aapt resource value: 0x7f0c00a8
+			public const int mr_playback_control = 2131493032;
+			
+			// aapt resource value: 0x7f0c00a1
+			public const int mr_title_bar = 2131493025;
+			
+			// aapt resource value: 0x7f0c00aa
+			public const int mr_volume_control = 2131493034;
+			
+			// aapt resource value: 0x7f0c00ab
+			public const int mr_volume_group_list = 2131493035;
+			
+			// aapt resource value: 0x7f0c00ad
+			public const int mr_volume_item_icon = 2131493037;
+			
+			// aapt resource value: 0x7f0c00ae
+			public const int mr_volume_slider = 2131493038;
 			
 			// aapt resource value: 0x7f0c0024
 			public const int multiply = 2131492900;
 			
-			// aapt resource value: 0x7f0c0095
-			public const int navigation_header_container = 2131493013;
+			// aapt resource value: 0x7f0c0094
+			public const int navigation_header_container = 2131493012;
 			
 			// aapt resource value: 0x7f0c0031
 			public const int never = 2131492913;
@@ -6938,14 +8572,14 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0011
 			public const int normal = 2131492881;
 			
-			// aapt resource value: 0x7f0c00c4
-			public const int notification_background = 2131493060;
-			
-			// aapt resource value: 0x7f0c00be
-			public const int notification_main_column = 2131493054;
+			// aapt resource value: 0x7f0c00c3
+			public const int notification_background = 2131493059;
 			
 			// aapt resource value: 0x7f0c00bd
-			public const int notification_main_column_container = 2131493053;
+			public const int notification_main_column = 2131493053;
+			
+			// aapt resource value: 0x7f0c00bc
+			public const int notification_main_column_container = 2131493052;
 			
 			// aapt resource value: 0x7f0c0041
 			public const int parallax = 2131492929;
@@ -6968,11 +8602,11 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c003f
 			public const int right = 2131492927;
 			
-			// aapt resource value: 0x7f0c00c3
-			public const int right_icon = 2131493059;
+			// aapt resource value: 0x7f0c00c2
+			public const int right_icon = 2131493058;
 			
-			// aapt resource value: 0x7f0c00bf
-			public const int right_side = 2131493055;
+			// aapt resource value: 0x7f0c00be
+			public const int right_side = 2131493054;
 			
 			// aapt resource value: 0x7f0c0012
 			public const int satellite = 2131492882;
@@ -7040,17 +8674,17 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0022
 			public const int showTitle = 2131492898;
 			
-			// aapt resource value: 0x7f0c00cc
-			public const int sliding_tabs = 2131493068;
+			// aapt resource value: 0x7f0c00cb
+			public const int sliding_tabs = 2131493067;
 			
-			// aapt resource value: 0x7f0c008d
-			public const int smallLabel = 2131493005;
-			
-			// aapt resource value: 0x7f0c0094
-			public const int snackbar_action = 2131493012;
+			// aapt resource value: 0x7f0c008c
+			public const int smallLabel = 2131493004;
 			
 			// aapt resource value: 0x7f0c0093
-			public const int snackbar_text = 2131493011;
+			public const int snackbar_action = 2131493011;
+			
+			// aapt resource value: 0x7f0c0092
+			public const int snackbar_text = 2131493010;
 			
 			// aapt resource value: 0x7f0c0039
 			public const int snap = 2131492921;
@@ -7076,8 +8710,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0040
 			public const int start = 2131492928;
 			
-			// aapt resource value: 0x7f0c00ba
-			public const int status_bar_latest_event_content = 2131493050;
+			// aapt resource value: 0x7f0c00b9
+			public const int status_bar_latest_event_content = 2131493049;
 			
 			// aapt resource value: 0x7f0c0068
 			public const int submenuarrow = 2131492968;
@@ -7085,23 +8719,23 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0079
 			public const int submit_area = 2131492985;
 			
-			// aapt resource value: 0x7f0c008a
-			public const int switchCameraButton = 2131493002;
+			// aapt resource value: 0x7f0c0089
+			public const int switchCameraButton = 2131493001;
 			
 			// aapt resource value: 0x7f0c001d
 			public const int tabMode = 2131492893;
 			
-			// aapt resource value: 0x7f0c008b
-			public const int takePhotoButton = 2131493003;
+			// aapt resource value: 0x7f0c008a
+			public const int takePhotoButton = 2131493002;
 			
 			// aapt resource value: 0x7f0c0013
 			public const int terrain = 2131492883;
 			
-			// aapt resource value: 0x7f0c00ca
-			public const int text = 2131493066;
+			// aapt resource value: 0x7f0c00c9
+			public const int text = 2131493065;
 			
-			// aapt resource value: 0x7f0c00c8
-			public const int text2 = 2131493064;
+			// aapt resource value: 0x7f0c00c7
+			public const int text2 = 2131493063;
 			
 			// aapt resource value: 0x7f0c005c
 			public const int textSpacerNoButtons = 2131492956;
@@ -7109,8 +8743,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c005b
 			public const int textSpacerNoTitle = 2131492955;
 			
-			// aapt resource value: 0x7f0c009a
-			public const int text_input_password_toggle = 2131493018;
+			// aapt resource value: 0x7f0c0099
+			public const int text_input_password_toggle = 2131493017;
 			
 			// aapt resource value: 0x7f0c000c
 			public const int textinput_counter = 2131492876;
@@ -7121,8 +8755,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0087
 			public const int textureView = 2131492999;
 			
-			// aapt resource value: 0x7f0c00c0
-			public const int time = 2131493056;
+			// aapt resource value: 0x7f0c00bf
+			public const int time = 2131493055;
 			
 			// aapt resource value: 0x7f0c0054
 			public const int title = 2131492948;
@@ -7133,11 +8767,11 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0061
 			public const int title_template = 2131492961;
 			
-			// aapt resource value: 0x7f0c0089
-			public const int toggleFlashButton = 2131493001;
+			// aapt resource value: 0x7f0c0088
+			public const int toggleFlashButton = 2131493000;
 			
-			// aapt resource value: 0x7f0c00cd
-			public const int toolbar = 2131493069;
+			// aapt resource value: 0x7f0c00cc
+			public const int toolbar = 2131493068;
 			
 			// aapt resource value: 0x7f0c0034
 			public const int top = 2131492916;
@@ -7145,8 +8779,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c0060
 			public const int topPanel = 2131492960;
 			
-			// aapt resource value: 0x7f0c0091
-			public const int touch_outside = 2131493009;
+			// aapt resource value: 0x7f0c0090
+			public const int touch_outside = 2131493008;
 			
 			// aapt resource value: 0x7f0c000a
 			public const int transition_current_scene = 2131492874;
@@ -7163,11 +8797,11 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0c000e
 			public const int view_offset_helper = 2131492878;
 			
-			// aapt resource value: 0x7f0c00ce
-			public const int visible = 2131493070;
+			// aapt resource value: 0x7f0c00cd
+			public const int visible = 2131493069;
 			
-			// aapt resource value: 0x7f0c00ad
-			public const int volume_item_container = 2131493037;
+			// aapt resource value: 0x7f0c00ac
+			public const int volume_item_container = 2131493036;
 			
 			// aapt resource value: 0x7f0c007d
 			public const int webview = 2131492989;
@@ -7503,116 +9137,116 @@ namespace ScottSilverFernApp.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f090050
-			public const int ApplicationName = 2131296336;
+			// aapt resource value: 0x7f090012
+			public const int ApplicationName = 2131296274;
 			
-			// aapt resource value: 0x7f09004f
-			public const int Hello = 2131296335;
-			
-			// aapt resource value: 0x7f090026
-			public const int abc_action_bar_home_description = 2131296294;
-			
-			// aapt resource value: 0x7f090027
-			public const int abc_action_bar_home_description_format = 2131296295;
+			// aapt resource value: 0x7f090011
+			public const int Hello = 2131296273;
 			
 			// aapt resource value: 0x7f090028
-			public const int abc_action_bar_home_subtitle_description_format = 2131296296;
+			public const int abc_action_bar_home_description = 2131296296;
 			
 			// aapt resource value: 0x7f090029
-			public const int abc_action_bar_up_description = 2131296297;
+			public const int abc_action_bar_home_description_format = 2131296297;
 			
 			// aapt resource value: 0x7f09002a
-			public const int abc_action_menu_overflow_description = 2131296298;
+			public const int abc_action_bar_home_subtitle_description_format = 2131296298;
 			
 			// aapt resource value: 0x7f09002b
-			public const int abc_action_mode_done = 2131296299;
+			public const int abc_action_bar_up_description = 2131296299;
 			
 			// aapt resource value: 0x7f09002c
-			public const int abc_activity_chooser_view_see_all = 2131296300;
+			public const int abc_action_menu_overflow_description = 2131296300;
 			
 			// aapt resource value: 0x7f09002d
-			public const int abc_activitychooserview_choose_application = 2131296301;
+			public const int abc_action_mode_done = 2131296301;
 			
 			// aapt resource value: 0x7f09002e
-			public const int abc_capital_off = 2131296302;
+			public const int abc_activity_chooser_view_see_all = 2131296302;
 			
 			// aapt resource value: 0x7f09002f
-			public const int abc_capital_on = 2131296303;
-			
-			// aapt resource value: 0x7f09003b
-			public const int abc_font_family_body_1_material = 2131296315;
-			
-			// aapt resource value: 0x7f09003c
-			public const int abc_font_family_body_2_material = 2131296316;
-			
-			// aapt resource value: 0x7f09003d
-			public const int abc_font_family_button_material = 2131296317;
-			
-			// aapt resource value: 0x7f09003e
-			public const int abc_font_family_caption_material = 2131296318;
-			
-			// aapt resource value: 0x7f09003f
-			public const int abc_font_family_display_1_material = 2131296319;
-			
-			// aapt resource value: 0x7f090040
-			public const int abc_font_family_display_2_material = 2131296320;
-			
-			// aapt resource value: 0x7f090041
-			public const int abc_font_family_display_3_material = 2131296321;
-			
-			// aapt resource value: 0x7f090042
-			public const int abc_font_family_display_4_material = 2131296322;
-			
-			// aapt resource value: 0x7f090043
-			public const int abc_font_family_headline_material = 2131296323;
-			
-			// aapt resource value: 0x7f090044
-			public const int abc_font_family_menu_material = 2131296324;
-			
-			// aapt resource value: 0x7f090045
-			public const int abc_font_family_subhead_material = 2131296325;
-			
-			// aapt resource value: 0x7f090046
-			public const int abc_font_family_title_material = 2131296326;
+			public const int abc_activitychooserview_choose_application = 2131296303;
 			
 			// aapt resource value: 0x7f090030
-			public const int abc_search_hint = 2131296304;
+			public const int abc_capital_off = 2131296304;
 			
 			// aapt resource value: 0x7f090031
-			public const int abc_searchview_description_clear = 2131296305;
+			public const int abc_capital_on = 2131296305;
+			
+			// aapt resource value: 0x7f09003d
+			public const int abc_font_family_body_1_material = 2131296317;
+			
+			// aapt resource value: 0x7f09003e
+			public const int abc_font_family_body_2_material = 2131296318;
+			
+			// aapt resource value: 0x7f09003f
+			public const int abc_font_family_button_material = 2131296319;
+			
+			// aapt resource value: 0x7f090040
+			public const int abc_font_family_caption_material = 2131296320;
+			
+			// aapt resource value: 0x7f090041
+			public const int abc_font_family_display_1_material = 2131296321;
+			
+			// aapt resource value: 0x7f090042
+			public const int abc_font_family_display_2_material = 2131296322;
+			
+			// aapt resource value: 0x7f090043
+			public const int abc_font_family_display_3_material = 2131296323;
+			
+			// aapt resource value: 0x7f090044
+			public const int abc_font_family_display_4_material = 2131296324;
+			
+			// aapt resource value: 0x7f090045
+			public const int abc_font_family_headline_material = 2131296325;
+			
+			// aapt resource value: 0x7f090046
+			public const int abc_font_family_menu_material = 2131296326;
+			
+			// aapt resource value: 0x7f090047
+			public const int abc_font_family_subhead_material = 2131296327;
+			
+			// aapt resource value: 0x7f090048
+			public const int abc_font_family_title_material = 2131296328;
 			
 			// aapt resource value: 0x7f090032
-			public const int abc_searchview_description_query = 2131296306;
+			public const int abc_search_hint = 2131296306;
 			
 			// aapt resource value: 0x7f090033
-			public const int abc_searchview_description_search = 2131296307;
+			public const int abc_searchview_description_clear = 2131296307;
 			
 			// aapt resource value: 0x7f090034
-			public const int abc_searchview_description_submit = 2131296308;
+			public const int abc_searchview_description_query = 2131296308;
 			
 			// aapt resource value: 0x7f090035
-			public const int abc_searchview_description_voice = 2131296309;
+			public const int abc_searchview_description_search = 2131296309;
 			
 			// aapt resource value: 0x7f090036
-			public const int abc_shareactionprovider_share_with = 2131296310;
+			public const int abc_searchview_description_submit = 2131296310;
 			
 			// aapt resource value: 0x7f090037
-			public const int abc_shareactionprovider_share_with_application = 2131296311;
+			public const int abc_searchview_description_voice = 2131296311;
 			
 			// aapt resource value: 0x7f090038
-			public const int abc_toolbar_collapse_description = 2131296312;
+			public const int abc_shareactionprovider_share_with = 2131296312;
+			
+			// aapt resource value: 0x7f090039
+			public const int abc_shareactionprovider_share_with_application = 2131296313;
+			
+			// aapt resource value: 0x7f09003a
+			public const int abc_toolbar_collapse_description = 2131296314;
 			
 			// aapt resource value: 0x7f090052
 			public const int app_name = 2131296338;
 			
-			// aapt resource value: 0x7f090047
-			public const int appbar_scrolling_view_behavior = 2131296327;
-			
-			// aapt resource value: 0x7f090048
-			public const int bottom_sheet_behavior = 2131296328;
-			
 			// aapt resource value: 0x7f090049
-			public const int character_counter_pattern = 2131296329;
+			public const int appbar_scrolling_view_behavior = 2131296329;
+			
+			// aapt resource value: 0x7f09004a
+			public const int bottom_sheet_behavior = 2131296330;
+			
+			// aapt resource value: 0x7f09004b
+			public const int character_counter_pattern = 2131296331;
 			
 			// aapt resource value: 0x7f090000
 			public const int common_google_play_services_enable_button = 2131296256;
@@ -7668,89 +9302,89 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f090053
 			public const int library_name = 2131296339;
 			
-			// aapt resource value: 0x7f090011
-			public const int mr_button_content_description = 2131296273;
-			
-			// aapt resource value: 0x7f090012
-			public const int mr_cast_button_connected = 2131296274;
-			
 			// aapt resource value: 0x7f090013
-			public const int mr_cast_button_connecting = 2131296275;
+			public const int mr_button_content_description = 2131296275;
 			
 			// aapt resource value: 0x7f090014
-			public const int mr_cast_button_disconnected = 2131296276;
+			public const int mr_cast_button_connected = 2131296276;
 			
 			// aapt resource value: 0x7f090015
-			public const int mr_chooser_searching = 2131296277;
+			public const int mr_cast_button_connecting = 2131296277;
 			
 			// aapt resource value: 0x7f090016
-			public const int mr_chooser_title = 2131296278;
+			public const int mr_cast_button_disconnected = 2131296278;
 			
 			// aapt resource value: 0x7f090017
-			public const int mr_controller_album_art = 2131296279;
+			public const int mr_chooser_searching = 2131296279;
 			
 			// aapt resource value: 0x7f090018
-			public const int mr_controller_casting_screen = 2131296280;
+			public const int mr_chooser_title = 2131296280;
 			
 			// aapt resource value: 0x7f090019
-			public const int mr_controller_close_description = 2131296281;
+			public const int mr_controller_album_art = 2131296281;
 			
 			// aapt resource value: 0x7f09001a
-			public const int mr_controller_collapse_group = 2131296282;
+			public const int mr_controller_casting_screen = 2131296282;
 			
 			// aapt resource value: 0x7f09001b
-			public const int mr_controller_disconnect = 2131296283;
+			public const int mr_controller_close_description = 2131296283;
 			
 			// aapt resource value: 0x7f09001c
-			public const int mr_controller_expand_group = 2131296284;
+			public const int mr_controller_collapse_group = 2131296284;
 			
 			// aapt resource value: 0x7f09001d
-			public const int mr_controller_no_info_available = 2131296285;
+			public const int mr_controller_disconnect = 2131296285;
 			
 			// aapt resource value: 0x7f09001e
-			public const int mr_controller_no_media_selected = 2131296286;
+			public const int mr_controller_expand_group = 2131296286;
 			
 			// aapt resource value: 0x7f09001f
-			public const int mr_controller_pause = 2131296287;
+			public const int mr_controller_no_info_available = 2131296287;
 			
 			// aapt resource value: 0x7f090020
-			public const int mr_controller_play = 2131296288;
-			
-			// aapt resource value: 0x7f090025
-			public const int mr_controller_stop = 2131296293;
+			public const int mr_controller_no_media_selected = 2131296288;
 			
 			// aapt resource value: 0x7f090021
-			public const int mr_controller_stop_casting = 2131296289;
+			public const int mr_controller_pause = 2131296289;
 			
 			// aapt resource value: 0x7f090022
-			public const int mr_controller_volume_slider = 2131296290;
+			public const int mr_controller_play = 2131296290;
+			
+			// aapt resource value: 0x7f090027
+			public const int mr_controller_stop = 2131296295;
 			
 			// aapt resource value: 0x7f090023
-			public const int mr_system_route_name = 2131296291;
+			public const int mr_controller_stop_casting = 2131296291;
 			
 			// aapt resource value: 0x7f090024
-			public const int mr_user_route_category_name = 2131296292;
+			public const int mr_controller_volume_slider = 2131296292;
 			
-			// aapt resource value: 0x7f09004a
-			public const int password_toggle_content_description = 2131296330;
+			// aapt resource value: 0x7f090025
+			public const int mr_system_route_name = 2131296293;
 			
-			// aapt resource value: 0x7f09004b
-			public const int path_password_eye = 2131296331;
+			// aapt resource value: 0x7f090026
+			public const int mr_user_route_category_name = 2131296294;
 			
 			// aapt resource value: 0x7f09004c
-			public const int path_password_eye_mask_strike_through = 2131296332;
+			public const int password_toggle_content_description = 2131296332;
 			
 			// aapt resource value: 0x7f09004d
-			public const int path_password_eye_mask_visible = 2131296333;
+			public const int path_password_eye = 2131296333;
 			
 			// aapt resource value: 0x7f09004e
-			public const int path_password_strike_through = 2131296334;
+			public const int path_password_eye_mask_strike_through = 2131296334;
 			
-			// aapt resource value: 0x7f090039
-			public const int search_menu_title = 2131296313;
+			// aapt resource value: 0x7f09004f
+			public const int path_password_eye_mask_visible = 2131296335;
 			
-			// aapt resource value: 0x7f09003a
-			public const int status_bar_notification_info_overflow = 2131296314;
+			// aapt resource value: 0x7f090050
+			public const int path_password_strike_through = 2131296336;
+			
+			// aapt resource value: 0x7f09003b
+			public const int search_menu_title = 2131296315;
+			
+			// aapt resource value: 0x7f09003c
+			public const int status_bar_notification_info_overflow = 2131296316;
 			
 			// aapt resource value: 0x7f090051
 			public const int title_activity_webview = 2131296337;
@@ -7782,6 +9416,9 @@ namespace ScottSilverFernApp.Droid
 			
 			// aapt resource value: 0x7f0d0170
 			public const int Animation_Design_BottomSheetDialog = 2131558768;
+			
+			// aapt resource value: 0x7f0d0193
+			public const int AppCompatDialogStyle = 2131558803;
 			
 			// aapt resource value: 0x7f0d0190
 			public const int BB_BottomBarBadge_Text = 2131558800;
@@ -8284,6 +9921,9 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0d0191
 			public const int MainTheme = 2131558801;
 			
+			// aapt resource value: 0x7f0d0192
+			public const int MainTheme_Base = 2131558802;
+			
 			// aapt resource value: 0x7f0d002d
 			public const int Platform_AppCompat = 2131558445;
 			
@@ -8368,8 +10008,8 @@ namespace ScottSilverFernApp.Droid
 			// aapt resource value: 0x7f0d004d
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131558477;
 			
-			// aapt resource value: 0x7f0d0192
-			public const int SplashTheme = 2131558802;
+			// aapt resource value: 0x7f0d0194
+			public const int SplashTheme = 2131558804;
 			
 			// aapt resource value: 0x7f0d00dd
 			public const int TextAppearance_AppCompat = 2131558621;

@@ -9,14 +9,14 @@
         android:layout_marginTop="-95dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    <Button
+    <!--<Button
         android:id="@+id/backButton"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_gravity="top|left"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="25dp"
-        android:background="@drawable/back" />
+        android:background="@drawable/back" />-->
     <Button
         android:id="@+id/toggleFlashButton"
         android:layout_width="32dp"

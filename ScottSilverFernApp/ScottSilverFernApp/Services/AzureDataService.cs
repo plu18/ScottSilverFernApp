@@ -23,7 +23,7 @@ namespace ScottSilverFernApp.Services
             if (MobileClient?.SyncContext?.IsInitialized ?? false)
                 return;
 
-            var appUrl = "https://sliverfernmobileapp.azurewebsites.net";
+            var appUrl = "http://sliverfernmobileapp.azurewebsites.net";
 
             MobileClient = new MobileServiceClient(appUrl);
 

@@ -18,6 +18,8 @@ using ScottSilverFernApp.Models;
 using System.Collections.Generic;
 using ScottSilverFernApp.Services;
 using System.Linq;
+using Plugin.Media;
+using ScottSilverFernApp.Helpers;
 
 [assembly: ExportRenderer(typeof(CustomCameraPage), typeof(CameraPageRenderer))]
 namespace ScottSilverFernApp.Droid
@@ -36,6 +38,8 @@ namespace ScottSilverFernApp.Droid
         CameraFacing cameraType;
         TextureView textureView;
         SurfaceTexture surfaceTexture;
+
+        bool isLoading = false;
 
         bool flashOn;
 
@@ -88,8 +92,8 @@ namespace ScottSilverFernApp.Droid
             galleryButton = view.FindViewById<global::Android.Widget.Button>(Resource.Id.galleryButton);
             galleryButton.Click += GalleryButtonTapped;
 
-            backButton = view.FindViewById<global::Android.Widget.Button>(Resource.Id.backButton);
-            backButton.Click += BackButtonTapped;
+            //backButton = view.FindViewById<global::Android.Widget.Button>(Resource.Id.backButton);
+            //backButton.Click += BackButtonTapped;
         }
 
         protected override void OnLayout(bool changed, int l, int t, int r, int b)
@@ -130,6 +134,7 @@ namespace ScottSilverFernApp.Droid
             PrepareAndStartCamera();
         }
 
+
         void PrepareAndStartCamera()
         {
             camera.StopPreview();
@@ -150,6 +155,9 @@ namespace ScottSilverFernApp.Droid
 
         void ToggleFlashButtonTapped(object sender, EventArgs e)
         {
+            if (isLoading)
+                return;
+
             flashOn = !flashOn;
             if (flashOn)
             {
@@ -185,6 +193,9 @@ namespace ScottSilverFernApp.Droid
 
         void SwitchCameraButtonTapped(object sender, EventArgs e)
         {
+            if (isLoading)
+                return;
+
             if (cameraType == CameraFacing.Front)
             {
                 cameraType = CameraFacing.Back;
@@ -209,9 +220,11 @@ namespace ScottSilverFernApp.Droid
 
         async void TakePhotoButtonTapped(object sender, EventArgs e)
         {
+            if (isLoading)
+                return;
             camera.StopPreview();
-
-            //MessagingCenter.Send<CustomCameraPage>(CustomCameraPage.getInstance(), "Navigation");
+            isLoading = true;
+            MessagingCenter.Send<CustomCameraPage>(CustomCameraPage.getInstance(), "StartLoading");
 
             var image = textureView.Bitmap;
 
@@ -223,8 +236,6 @@ namespace ScottSilverFernApp.Droid
 
                 FileStream fileStream = new FileStream(filePath, FileMode.Create);
                 await image.CompressAsync(Bitmap.CompressFormat.Jpeg, 50, fileStream);
-
-
                 
                 var intent = new Android.Content.Intent(Android.Content.Intent.ActionMediaScannerScanFile);
                 var file = new Java.IO.File(filePath);
@@ -234,7 +245,14 @@ namespace ScottSilverFernApp.Droid
                 MainActivity.Instance.SendBroadcast(intent);
 
                 Stream stream = fileStream as Stream;
-                MessagingCenter.Send<CustomCameraPage, Stream>(CustomCameraPage.getInstance(), "StreamSend", stream);
+
+                //MessagingCenter.Send<CustomCameraPage>(CustomCameraPage.getInstance(), "Navigation");
+                //MessagingCenter.Send<CustomCameraPage, string>(CustomCameraPage.getInstance(), "PathSend", filePath);
+
+                List<Species> speciesList = await CameraHelper.CommonOperationCameraLibPictures(stream);
+
+                MessagingCenter.Send<CustomCameraPage, List<Species>>(CustomCameraPage.getInstance(), "StreamSend", speciesList);
+                //MessagingCenter.Send<CustomCameraPage, Stream>(CustomCameraPage.getInstance(), "StreamSend", stream);
 
                 fileStream.Close();
                 image.Recycle();
@@ -245,12 +263,43 @@ namespace ScottSilverFernApp.Droid
                 System.Diagnostics.Debug.WriteLine(@"				", ex.Message);
             }
 
+            isLoading = false;
+            MessagingCenter.Send<CustomCameraPage>(CustomCameraPage.getInstance(), "StopLoading");
             camera.StartPreview();
         }
 
         async void GalleryButtonTapped(object sender, EventArgs e)
         {
-            
+            if (isLoading)
+                return;
+
+            if (!CrossMedia.Current.IsPickPhotoSupported)
+            {
+                return;
+            }
+            var file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
+            {
+                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
+            });
+
+            if (file == null)
+                return;
+
+            MessagingCenter.Send<CustomCameraPage>(CustomCameraPage.getInstance(), "StartLoading");
+            camera.StopPreview();
+            isLoading = true;
+
+            Stream stream = file.GetStream();
+
+
+            List<Species> speciesList = await CameraHelper.CommonOperationCameraLibPictures(stream);
+
+            MessagingCenter.Send<CustomCameraPage, List<Species>>(CustomCameraPage.getInstance(), "StreamSend", speciesList);
+
+            MessagingCenter.Send<CustomCameraPage>(CustomCameraPage.getInstance(), "StopLoading");
+            isLoading = false;
+            file.Dispose();
+            camera.StartPreview();
         }
 
         async void BackButtonTapped(object sender, EventArgs e)

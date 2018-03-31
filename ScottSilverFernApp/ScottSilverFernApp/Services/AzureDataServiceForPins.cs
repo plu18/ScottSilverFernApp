@@ -23,7 +23,7 @@ namespace ScottSilverFernApp.Services
             if (MobileClient?.SyncContext?.IsInitialized ?? false)
                 return;
 
-            var appUrl = "https://sliverfernmobileapp.azurewebsites.net";
+            var appUrl = "http://sliverfernmobileapp.azurewebsites.net";
 
 
 
@@ -71,18 +71,10 @@ namespace ScottSilverFernApp.Services
         public async Task<ObservableCollection<SPECIES_LA_LONG>> GetPinsAsync()
         {
             await SyncPins();
-            try
-            {
-                IEnumerable<SPECIES_LA_LONG> items = await pinsTable
-                    .ToEnumerableAsync();
-                return (new ObservableCollection<SPECIES_LA_LONG>(items));
-            }
-            catch (MobileServiceInvalidOperationException e)
-            {
+            IEnumerable<SPECIES_LA_LONG> items = await pinsTable
+              .ToEnumerableAsync();
 
-            }
-
-            return (new ObservableCollection<SPECIES_LA_LONG>());
+            return new ObservableCollection<SPECIES_LA_LONG>(items);
         }
         public async Task SyncPins()
         {
@@ -120,6 +112,5 @@ namespace ScottSilverFernApp.Services
                 }
             }
         }
-
     }
 }

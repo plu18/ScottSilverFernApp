@@ -49,7 +49,7 @@ namespace ScottSilverFernApp
                     Directory = "Test",
                     SaveToAlbum = true,
                     CompressionQuality = 75,//compression ratio
-
+                    
                     PhotoSize = PhotoSize.Custom,
                     CustomPhotoSize = 50,//50% resize
 
@@ -59,7 +59,7 @@ namespace ScottSilverFernApp
                 if (file == null)
                     return;
 
-                await DisplayAlert("File Location", file.Path, "OK");
+                //await DisplayAlert("File Location", file.Path, "OK");
 
                 Stream stream = file.GetStream();
                 file.Dispose();

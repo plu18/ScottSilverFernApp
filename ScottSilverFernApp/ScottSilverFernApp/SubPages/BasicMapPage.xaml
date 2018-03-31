@@ -9,17 +9,16 @@
             HorizontalOptions="Fill"
             VerticalOptions="Fill">
             <Grid.RowDefinitions>
-                <RowDefinition Height="1*" />
-                <RowDefinition Height="14*" />
+                <!--<RowDefinition Height="1*" />-->
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <ScrollView Grid.Row="0"
+            <!--<ScrollView Grid.Row="0"
                         Orientation="Vertical">
 
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
-                        <!--<RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
@@ -33,7 +32,8 @@
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />-->
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
 
                     <Grid.ColumnDefinitions>
@@ -51,7 +51,7 @@
                             Grid.Row="0"
                             Grid.Column="1" />
 
-                    <!--<Label Text="MyLocationEnabled"
+                    <Label Text="MyLocationEnabled"
                            VerticalOptions="Center"
                            Grid.Row="1"
                            Grid.Column="0" />
@@ -199,10 +199,10 @@
                             Text="Take Snapshot"
                             Grid.Row="15"
                             Grid.Column="0"
-                            Grid.ColumnSpan="2" />-->
+                            Grid.ColumnSpan="2" />
 
                 </Grid>
-            </ScrollView>
+            </ScrollView>-->
 
             <!--
             Initial CameraUpdate
@@ -212,7 +212,7 @@
               Tilt = 60
             -->
             <!---36.863717, 174.758264-->
-            <maps:Map Grid.Row="1" x:Name="map"
+            <maps:Map Grid.Row="0" x:Name="map"
                       InitialCameraUpdate="-36.864, 174.758, 13, 30, 60"
                       VerticalOptions="FillAndExpand" />
         </Grid>

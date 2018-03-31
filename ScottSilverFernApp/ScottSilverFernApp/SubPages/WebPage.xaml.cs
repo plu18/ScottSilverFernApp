@@ -16,7 +16,7 @@ namespace ScottSilverFernApp.SubPages
 		{
 			InitializeComponent ();
 
-            this.BackgroundColor = Color.LightBlue;
+            this.BackgroundColor = Color.Red;
 
             var browser = new WebView();
             browser.Source = path;

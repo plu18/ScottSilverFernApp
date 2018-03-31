@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:customControls="clr-namespace:ScottSilverFernApp.CustomControls;assembly=ScottSilverFernApp"
+             xmlns:shapeView="clr-namespace:XFShapeView;assembly=XFShapeView"
              x:Class="ScottSilverFernApp.IdentifyListView"
+
              BackgroundColor="#EBEBEB">
     
     <ContentView.Content>
-        <StackLayout x:Name="ListViewPageAndDetailsPage" Spacing="0" Margin="10,0,10,0">
+        <StackLayout x:Name="ListViewPageAndDetailsPage" Spacing="0" Margin="0,20,0,0">
 
             <ListView x:Name="SpeciesListView" HasUnevenRows="True" ItemSelected="OnSelection" 
                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=0}"
@@ -14,32 +17,39 @@
                 RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
+                        <!--<ViewCell>-->
+                        <customControls:ExtendedViewCell SelectedBackgroundColor="#9cd4b1">
+                            <ViewCell.View>
+                                <StackLayout Orientation="Vertical" HeightRequest="150">
+                                    <BoxView Color="#EBEBEB" HeightRequest="1" VerticalOptions="Center"/>
+                                    <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                        <shapeView:ShapeView  HorizontalOptions="Center" VerticalOptions="Center" 
+                                                              WidthRequest="120" HeightRequest="120" Margin="50,8,0,0" 
+                                                              CornerRadius="10"  BorderColor="Red">
+                                            <Image Source="{Binding imageAddr}" HorizontalOptions="Fill" VerticalOptions="Fill"/>
+                                            <!--<Label Text="hehe" TextColor ="White" HorizontalOptions="Fill" VerticalOptions="Fill" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>-->
+                                        </shapeView:ShapeView>
+                                        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="20,10,20,0">
 
-                            <StackLayout Orientation="Vertical" >
-                                <BoxView Color="#EBEBEB" HeightRequest="1"/>
-                                <StackLayout Orientation="Horizontal">
-                                    <Image Source="{Binding imageAddr}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150" HeightRequest="150"/>
-                                    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="{Binding speciesName}" TextColor="Black" FontSize="15"/>
+                                            </StackLayout>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="Similarity:" TextColor="Gray" FontSize="12"/>
+                                                <Label Text="{Binding similarity}" TextColor="#696969" FontSize="12"/>
+                                                <Label Text="%" TextColor="Black" FontSize="12"/>
+                                            </StackLayout>
 
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="{Binding speciesName}" TextColor="Black" FontSize="15"/>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="{Binding invasiveOrNotString}" TextColor="Red" FontSize="12"/>
+                                            </StackLayout>
+
                                         </StackLayout>
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="Similarity:" TextColor="Black" FontSize="12"/>
-                                            <Label Text="{Binding similarity}" TextColor="#696969" FontSize="12"/>
-                                            <Label Text="%" TextColor="Black" FontSize="12"/>
-                                        </StackLayout>
-
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="{Binding invasiveOrNotString}" TextColor="Red" FontSize="12"/>
-                                        </StackLayout>
-
                                     </StackLayout>
                                 </StackLayout>
-                            </StackLayout>
-
-                        </ViewCell>
+                            </ViewCell.View>
+                        <!--</ViewCell>-->
+                        </customControls:ExtendedViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

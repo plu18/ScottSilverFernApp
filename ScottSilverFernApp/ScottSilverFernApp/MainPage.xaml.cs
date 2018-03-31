@@ -10,5 +10,5 @@ namespace ScottSilverFernApp
 			InitializeComponent();
             BindingContext = new MainViewModel(this);
         }
-	}
+    }
 }
